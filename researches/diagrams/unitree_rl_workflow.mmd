@@ -1,0 +1,22 @@
+graph TD
+    subgraph "仿真环境 (Simulation)"
+        A["<b>Train in Isaac Gym</b><br/><i>使用GPU加速进行大规模并行训练</i>"] --> B{"Policy Model (.pt file)"};
+        B --> C["<b>Play in Isaac Gym</b><br/><i>验证和可视化策略</i>"];
+        B --> D["<b>Sim2Sim in Mujoco</b><br/><i>验证策略的泛化能力</i>"];
+    end
+
+    subgraph "物理世界 (Real World)"
+        D --> E["<b>Sim2Real Deployment</b><br/><i>部署到物理机器人(G1, H1, Go2)</i>"];
+        C --> E;
+    end
+
+    subgraph "开发与部署"
+        F["<b>unitree_legged_sdk</b><br/><i>底层硬件通信接口</i>"] --> E;
+        G["<b>C++/Python Scripts</b><br/><i>用户开发的部署脚本</i>"] --> E;
+        H["<b>Pre-trained Models</b><br/><i>官方提供的预训练模型</i>"] --> D;
+        H --> C;
+    end
+
+    style A fill:#cce5ff,stroke:#333,stroke-width:2px
+    style E fill:#d5f5e3,stroke:#333,stroke-width:2px
+    style F fill:#fff2cc,stroke:#333,stroke-width:2px
