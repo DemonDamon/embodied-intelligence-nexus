@@ -51,17 +51,17 @@ embodied-intelligence-nexus/
 
 | 章节编号 | 章节名称 | 核心内容 |
 | :--- | :--- | :--- |
-| **第一章** | [机器人抓取与操作介绍](./course/01-robot-grasping-intro/README.md) | 运动规划、传感器、学习方法、实战工具 |
+| **第一章** | [机器人抓取与操作介绍](./course/01-robot-grasping-intro/README.md) | 运动规划、传感器、学习方法、实战工具、[2026开源框架与平台](./course/01-robot-grasping-intro/1.6-frameworks-platforms-2026.md) |
 | **第二章** | [经典规划控制方法](./course/02-classical-control/README.md) | 轨迹算法、控制算法、智能抓取接触方法 |
 | **第三章** | [机器人视觉方法](./course/03-robot-vision/README.md) | 传感器标定、特征系统、2D/3D图像处理、6D位姿估计 |
-| **第四章** | [基于深度学习的抓取](./course/04-deep-learning-grasping/README.md) | 2D/6DoF抓取、Dex Grasping、视觉伺服 |
+| **第四章** | [基于深度学习的抓取](./course/04-deep-learning-grasping/README.md) | 2D/6DoF抓取、Dex Grasping、[2026 Sim-to-Real与操作新进展](./course/04-deep-learning-grasping/4.6-sim-to-real-and-manipulation-2026.md) |
 | **第五章** | [模仿学习](./course/05-imitation-learning/README.md) | Behavior Cloning、Interactive IL、Inverse RL |
 | **第六章** | [强化学习方法](./course/06-reinforcement-learning/README.md) | Q-Learning、Policy Gradient、Actor Critic、Offline RL |
-| **第七章** | [具身智能：VLA与VLM模型](./course/07-vla-vlm-models/README.md) | Transformer、Diffusion Policy、RT1/RT2/Octo/OpenVLA |
+| **第七章** | [具身智能：VLA与VLM模型](./course/07-vla-vlm-models/README.md) | Transformer、Diffusion Policy、RT1/RT2/Octo、[2026 WAMs模型更新](./course/07-vla-vlm-models/7.9-world-action-models-2026-updates.md) |
 | **第八章** | [工程经验和总结展望](./course/08-engineering-experience/README.md) | 后处理优化、轨迹平滑、未来展望 |
 
 - **维护者**: Damon Li
-- **更新日期**: 2026年2月4日
+- **更新日期**: 2026年6月10日 (新增2026年上半年学术与工业界最新进展)
 
 ---
 
