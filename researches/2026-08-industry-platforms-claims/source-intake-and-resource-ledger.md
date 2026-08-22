@@ -25,6 +25,18 @@
 | 11 | [Dyna-2](https://mp.weixin.qq.com/s/_1nWy6AZLkqMfj5W4aHQ_g) | Dyna Robotics Dyna-2 | B：官方研究博客；论文/权重未公开 | [7.11](../../course/07-vla-vlm-models/2026-08-verified-embodied-ai-updates/7.11-world-action-models-2026.md) |
 | 12 | [物理仿真到世界模型](https://mp.weixin.qq.com/s/ju2ymeVW75WnJsExEErpLw) | 具身智能综述、Genesis、MuJoCo、Isaac Lab、Habitat、AI2-THOR | A：论文与官方平台资源 | [7.13](../../course/07-vla-vlm-models/2026-08-verified-embodied-ai-updates/7.13-world-models-and-simulators-resource-map.md) |
 | 13 | [MotionDecode](https://chingmudata.github.io/MotionDecode/) | ChingMu 1000-Hour Embodied Motion Dataset | A：项目主页、HF 数据页 | [5.7](../../course/05-imitation-learning/2026-08-motiondecode-dataset/5.7-motiondecode-embodied-motion-dataset.md) |
+| 14 | [Xiaomi-Robotics-1](https://arxiv.org/abs/2607.15330) | 100K+ 小时 UMI 预训练 VLA | A：arXiv 论文、项目页；代码/模型承诺开源 | [7.14](../../course/07-vla-vlm-models/2026-08-verified-embodied-ai-updates/7.14-xiaomi-robotics-1-vla-2026.md) |
+| 15 | [NebulaVLA](https://arxiv.org/abs/2608.16503) | 双频 VLA + GESTURE-7 | A：arXiv 论文 | [7.15](../../course/07-vla-vlm-models/2026-08-verified-embodied-ai-updates/7.15-vla-architecture-innovations-2026.md) |
+| 16 | [ExToken](https://arxiv.org/abs/2607.12931) | VLA-RL 结构化探索 | A：arXiv 论文 | [7.16](../../course/07-vla-vlm-models/2026-08-verified-embodied-ai-updates/7.16-vla-post-training-rl-2026.md) |
+| 17 | [Robot-Factored WM](https://arxiv.org/abs/2607.22535) | URDF 渲染解耦世界模型 | A：arXiv 论文、项目页 | [7.17](../../course/07-vla-vlm-models/2026-08-verified-embodied-ai-updates/7.17-world-models-for-robotics-2026.md) |
+| 18 | [ω-0](https://arxiv.org/abs/2608.06375) | 人形并发 loco-manipulation WAM + ω-HOME 数据集 | A：arXiv 论文 | [7.18](../../course/07-vla-vlm-models/2026-08-verified-embodied-ai-updates/7.18-humanoid-world-models-2026.md) |
+| 19 | [Handroid](https://arxiv.org/abs/2607.16187) | 27-DoF 可重构双本体平台 | A：arXiv 论文、项目页 | [4.7](../../course/04-deep-learning-grasping/4.7-dexterous-manipulation-2026.md) |
+| 20 | [FM-VLA](https://arxiv.org/abs/2607.18231) | 力记忆 VLA | A：arXiv 论文、项目页 | [4.7](../../course/04-deep-learning-grasping/4.7-dexterous-manipulation-2026.md) |
+| 21 | [Open-AoE](https://arxiv.org/abs/2607.14183) | 2000h 手机采集第一人称操纵数据集 | A：arXiv 论文 | [5.8](../../course/05-imitation-learning/5.8-embodied-datasets-benchmarks-2026.md) |
+| 22 | [DexVerse](https://arxiv.org/abs/2607.08751) | 100任务/3臂/6手灵巧操作基准 | A：arXiv 论文、项目页 | [5.8](../../course/05-imitation-learning/5.8-embodied-datasets-benchmarks-2026.md) |
+| 23 | [AGIBOT WAIC 2026](https://www.agibot.com/article/231/detail/85.html) | A3 Ultra、X2 Edu、G2 Max、OmniHand 3 | B：官方产品发布 | [产业补充](./industry-supplement-august-2026.md) |
+| 24 | [Galbot ET1](https://www.xinhuanet.com/digital/20260821/e172222483dc4d75a357145caa74d9d0/c.html) | 双足人形 + 银河星脑 | B/C：新华网报道 | [产业补充](./industry-supplement-august-2026.md) |
+| 25 | [NVIDIA GR00T N1.7](https://github.com/nvidia/isaac-gr00t) | GR00T N1.7 GA + Cosmos 3 + Isaac Lab v2.3.2 | B：GitHub + 官方博客 | [产业补充](./industry-supplement-august-2026.md) |
 
 ## 3. 关键论文、代码、模型与数据入口
 

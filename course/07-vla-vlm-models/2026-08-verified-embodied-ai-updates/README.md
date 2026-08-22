@@ -14,6 +14,11 @@
 | [7.11 世界动作模型](./7.11-world-action-models-2026.md) | Khora、GEN-1.5、Dyna-2 | 论文、项目页、官方研究博客、演示页 |
 | [7.12 人形 VLA 与真实硬件评测](./7.12-humanoid-vla-and-real-robot-evaluation.md) | UniBot-V1、Unitree G1、QUAR-VLA、Humanoid-VLA、CARP、VLA-Adapter、TrajBooster、OpenWBC | 赛事、提交规范、代码、模型页、项目主页 |
 | [7.13 世界模型与具身仿真资源图谱](./7.13-world-models-and-simulators-resource-map.md) | World Models、Dreamer、MuZero、JEPA、IRIS、Genie、GAIA、DIAMOND、Genesis、Isaac Lab、MuJoCo、Habitat、AI2-THOR | 论文、开源基线、框架与基准入口 |
+| [7.14 Xiaomi-Robotics-1 VLA](./7.14-xiaomi-robotics-1-vla-2026.md) | Xiaomi-Robotics-1、100K+ 小时 UMI 预训练、自动语言标注、RoboCasa365 SOTA | 论文、项目页 |
+| [7.15 VLA 架构创新](./7.15-vla-architecture-innovations-2026.md) | NebulaVLA（双频+GESTURE-7）、AtVLA（自适应视觉细化）、Semantic Anchoring、Cross-View Action Consistency | 论文 |
+| [7.16 VLA 后训练与 RL 微调](./7.16-vla-post-training-rl-2026.md) | ExToken（结构化探索）、Z-1（GRPO for flow-based VLA）、DEED（零售场景部署） | 论文 |
+| [7.17 机器人世界模型](./7.17-world-models-for-robotics-2026.md) | Robot-Factored World Models、RoboWorld（神经仿真评估）、GeniWorld（可泛化交互世界模型） | 论文、项目页 |
+| [7.18 人形世界动作模型](./7.18-humanoid-world-models-2026.md) | ω-0（latent predictive WAM + ω-HOME 数据集）、GigaBrain-WBC-0.5（行为世界模型） | 论文 |
 
 ## 证据等级
 

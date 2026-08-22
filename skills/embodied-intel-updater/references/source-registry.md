@@ -69,5 +69,17 @@
 - MotionDecode: https://huggingface.co/datasets/CMRobot/MotionDecode
 - World Models: https://arxiv.org/abs/1803.10122
 - DIAMOND: https://arxiv.org/abs/2405.12399
+- Xiaomi-Robotics-1: https://arxiv.org/abs/2607.15330
+- NebulaVLA: https://arxiv.org/abs/2608.16503
+- ExToken: https://arxiv.org/abs/2607.12931
+- Robot-Factored World Models: https://arxiv.org/abs/2607.22535
+- ω-0: https://arxiv.org/abs/2608.06375
+- Handroid: https://arxiv.org/abs/2607.16187
+- FM-VLA: https://arxiv.org/abs/2607.18231
+- Open-AoE: https://arxiv.org/abs/2607.14183
+- DexVerse: https://arxiv.org/abs/2607.08751
+- MIDAS Hand: https://arxiv.org/abs/2607.14487
+- NVIDIA GR00T: https://github.com/nvidia/isaac-gr00t
+- NVIDIA Cosmos 3: https://developer.nvidia.com/blog/develop-physical-ai-reasoning-world-and-action-models-with-nvidia-cosmos-3
 
 更新本表时，优先添加稳定的一级入口而非单篇新闻链接。

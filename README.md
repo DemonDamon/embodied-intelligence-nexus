@@ -1,5 +1,7 @@
 # Embodied Intelligence Nexus
 
+> 作者：Damon Li | 更新日期：2026年8月22日
+
 **具身智能前沿技术与应用研究 | A Comprehensive Research Repository on Embodied AI**
 
 [![GitHub](https://img.shields.io/badge/GitHub-embodied--intelligence--nexus-blue)](https://github.com/DemonDamon/embodied-intelligence-nexus)
@@ -25,11 +27,18 @@ embodied-intelligence-nexus/
 │   ├── 02-classical-control/          # 第二章：经典规划控制方法
 │   ├── 03-robot-vision/               # 第三章：机器人视觉方法
 │   ├── 04-deep-learning-grasping/     # 第四章：基于深度学习的抓取
+│   │   └── 4.7-dexterous-manipulation-2026.md  # 2026年灵巧操作与遥操作更新
 │   ├── 05-imitation-learning/         # 第五章：模仿学习
-│   │   └── 2026-08-motiondecode-dataset/  # 具身动作数据集专题
+│   │   ├── 2026-08-motiondecode-dataset/  # 具身动作数据集专题
+│   │   └── 5.8-embodied-datasets-benchmarks-2026.md  # Open-AoE 与 DexVerse
 │   ├── 06-reinforcement-learning/     # 第六章：强化学习方法
 │   ├── 07-vla-vlm-models/             # 第七章：具身智能：VLA与VLM模型
 │   │   └── 2026-08-verified-embodied-ai-updates/  # 已核验模型、世界模型与真实评测专题
+│   │       ├── 7.14-xiaomi-robotics-1-vla-2026.md       # Xiaomi-Robotics-1 VLA
+│   │       ├── 7.15-vla-architecture-innovations-2026.md # VLA 架构创新
+│   │       ├── 7.16-vla-post-training-rl-2026.md        # VLA 后训练与 RL 微调
+│   │       ├── 7.17-world-models-for-robotics-2026.md   # 机器人世界模型
+│   │       └── 7.18-humanoid-world-models-2026.md       # 人形世界动作模型
 │   └── 08-engineering-experience/     # 第八章：工程经验和总结展望
 └── researches/                        # 研究报告目录
     ├── README.md                      # 研究报告索引
@@ -42,6 +51,7 @@ embodied-intelligence-nexus/
     ├── 具身智能应用开发全流程及企业级解决方案与实践.md
     ├── 大模型平台选型与具身智能赋能行业落地案例解析.md
     ├── 2026-08-industry-platforms-claims/  # 产业平台与信息核验专题
+    │   └── industry-supplement-august-2026.md  # AGIBOT/Galbot/NVIDIA/WHRG 补充
     ├── images/                        # 技术图表与架构图
     └── diagrams/                      # 图表源文件（Mermaid）
 └── skills/                            # 仓库专用工作流

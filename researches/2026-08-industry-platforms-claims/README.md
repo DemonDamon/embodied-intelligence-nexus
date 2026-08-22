@@ -11,6 +11,7 @@
 | :--- | :--- | :--- |
 | [Tesla Optimus、Terafab、AI5 与 Grok](./tesla-optimus-terafab-ai5-grok-verification.md) | 人形机器人、本地 AI 推理芯片、半导体制造与通用大模型协同 | 保留 Tesla / xAI 官方可确认事实；把投资额、总算力、量产日期等无一手证据主张列为待核验。 |
 | [资料入口与资源追溯台账](./source-intake-and-resource-ledger.md) | 用户提供的 13 个入口及其归档位置、证据等级与资源状态 | 便于后续更新时逐项复核和补充。 |
+| [产业平台与赛事补充](./industry-supplement-august-2026.md) | AGIBOT WAIC 2026、Galbot ET1、NVIDIA GR00T N1.7 / Cosmos 3 / Isaac Lab、WHRG 2026 场景赛 | 官方披露（B 级）与媒体报道（C 级）分开标注，量化指标未确认。 |
 
 ## 核验原则
 

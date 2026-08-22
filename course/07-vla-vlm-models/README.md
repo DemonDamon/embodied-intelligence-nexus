@@ -1,7 +1,6 @@
 # 第七章：具身智能：VLA与VLM模型
 
-- **作者**: Damon Li
-- **日期**: 2026年8月22日
+> 作者：Damon Li | 更新日期：2026年8月22日
 
 本章将深入探讨具身智能领域的前沿进展，特别是视觉-语言-动作 (Vision-Language-Action, VLA) 模型和视觉-语言模型 (Vision-Language Model, VLM) 在机器人控制中的应用。我们将涵盖Transformer、Diffusion Policy等核心技术，并介绍RT1/RT2、Octo、OpenVLA等具身智能的代表性模型。
 
@@ -17,3 +16,4 @@
 - [7.8 总结](./7.8-summary.md)
 - [2026年8月具身模型、世界模型与真实评测更新](./2026-08-verified-embodied-ai-updates/README.md)
   - 包括 LingBot、FabriVLA、Khora、GEN-1.5、Dyna-2、UniBot、Unitree G1、人形 VLA、世界模型经典基线与具身仿真平台的深度核验、论文/代码/模型/数据资源索引。
+  - 新增：Xiaomi-Robotics-1（10万小时 VLA）、NebulaVLA/AtVLA/Semantic Anchoring/Cross-View（VLA 架构创新）、ExToken/Z-1/DEED（VLA 后训练与 RL）、Robot-Factored WM/RoboWorld/GeniWorld（机器人世界模型）、ω-0/GigaBrain-WBC-0.5（人形世界动作模型）。
