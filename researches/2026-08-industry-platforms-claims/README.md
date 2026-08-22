@@ -1,7 +1,7 @@
 # 2026年8月产业平台、硬件路线与信息核验
 
 > 作者：Damon Li
-> 更新日期：2026年8月22日
+> 更新日期：2026年8月23日
 
 本专题收录具身智能产业信息中需要严格区分**官方可验证披露**、**企业研究博客**和**媒体/微信转述**的内容。其目的是提供可追溯的技术与资源索引，而非重复传播未经确认的融资、产能、算力或量产指标。
 
@@ -9,7 +9,7 @@
 
 | 文档 | 范围 | 核验结论 |
 | :--- | :--- | :--- |
-| [Tesla Optimus、Terafab、AI5 与 Grok](./tesla-optimus-terafab-ai5-grok-verification.md) | 人形机器人、本地 AI 推理芯片、半导体制造与通用大模型协同 | 保留 Tesla / xAI 官方可确认事实；把投资额、总算力、量产日期等无一手证据主张列为待核验。 |
+| [Tesla、FSD、Optimus、Terafab、AI5 与 Grok](./tesla-optimus-terafab-ai5-grok-verification.md) | 车辆自主性、人形机器人、本地 AI 推理芯片、半导体制造与通用大模型协同 | 本轮仅确认 Tesla AI 页的概括性自主性表述与 ICCV 2025 keynote 身份；FSD/Optimus 统一 VLA、AI5/产能/Grok 集成等主张均保留为待核验。 |
 | [资料入口与资源追溯台账](./source-intake-and-resource-ledger.md) | 用户提供的 13 个入口及其归档位置、证据等级与资源状态 | 便于后续更新时逐项复核和补充。 |
 | [产业平台与赛事补充](./industry-supplement-august-2026.md) | AGIBOT WAIC 2026、Galbot ET1、NVIDIA GR00T N1.7 / Cosmos 3 / Isaac Lab、WHRG 2026 场景赛 | 官方披露（B 级）与媒体报道（C 级）分开标注，量化指标未确认。 |
 

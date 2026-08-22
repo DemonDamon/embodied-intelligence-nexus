@@ -38,7 +38,15 @@
 
 9. [2026年8月产业平台、硬件路线与信息核验](./2026-08-industry-platforms-claims/README.md)
    - 核验 Tesla Optimus、Terafab、AI5、Grok 等产业信息，明确官方披露与未证实量化主张的边界
-   - 提供本次 13 个具身智能入口资料的资源追溯台账，并链接到课程章节中的论文、GitHub、模型与数据集资料
+   - 提供早期 13 个具身智能入口资料的资源追溯台账，并链接到课程章节中的论文、GitHub、模型与数据集资料
+
+10. [机器人系统控制与可复现性核验专题](./2026-08-robotics-systems-verification/README.md)
+    - 深度审计磁控神经介入、ANYmal Parkour、EPIC 外骨骼控制和软体肩部穿戴机器人的物理原理、实验设计、统计与开源边界
+    - 链接同行评审论文、Code Ocean 与 Zenodo 的官方可复现资源
+
+11. [九篇公众号推文的一手来源溯源台账](./2026-08-wechat-source-followup/README.md)
+    - 对 τ₀-VLA、Lumo-2、VLA-Perf、Patch Policy、系统机器人研究和 Tesla 相关线索执行证据分级
+    - 明确哪些结论已由论文/官方资源支持，哪些内容必须继续等待一手披露
 
 ## 🖼️ 技术图表
 
@@ -54,8 +62,8 @@
 
 ## 📖 关于本研究
 
-**作者**: Damon Li  
-**日期**: 2026年8月22日
+**作者**: Damon Li
+**日期**: 2026年8月23日
 **仓库**: [embodied-intelligence-nexus](https://github.com/DemonDamon/embodied-intelligence-nexus)
 
 本研究旨在为政府决策者、企业管理者、技术开发者和学术研究者提供关于具身智能的全面、深入、前沿的知识体系，助力中国在具身智能时代抢占战略制高点。

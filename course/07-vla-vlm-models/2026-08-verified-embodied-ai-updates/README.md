@@ -1,7 +1,7 @@
 # 2026年8月具身模型、世界模型与真实评测更新
 
 > 作者：Damon Li
-> 更新日期：2026年8月22日
+> 更新日期：2026年8月23日
 > 核验口径：优先使用论文原文、官方项目页、官方 GitHub、Hugging Face / ModelScope 与公司官网；微信公众号文章仅作为线索与出处追溯，不将未经一手来源证实的主张视为事实。
 
 本专题归档 2026 年 7—8 月新增的具身基础模型、世界动作模型（World-Action Model, WAM）、人形机器人真实评测、开源 VLA 研究与仿真平台资料。内容将**论文证据**、**官方产品披露**与**未公开信息**分开处理，便于后续复核、复现与持续更新。
@@ -20,6 +20,8 @@
 | [7.17 机器人世界模型](./7.17-world-models-for-robotics-2026.md) | Robot-Factored World Models、RoboWorld（神经仿真评估）、GeniWorld（可泛化交互世界模型） | 论文、项目页 |
 | [7.18 人形世界动作模型](./7.18-humanoid-world-models-2026.md) | ω-0（latent predictive WAM + ω-HOME 数据集）、GigaBrain-WBC-0.5（行为世界模型） | 论文 |
 | [7.19 VLA 训练范式与评测基准突破](./7.19-vla-training-paradigm-breakthroughs-2026.md) | Recap/π*0.6、OpenVLA-OFT、latent action 预训练、离散扩散/流匹配动作解码、HybridVLA、RoboDojo、LIBERO-PRO/Plus、RoboArena、AutoEval、vla-eval | 论文、OpenReview、官方博客（B 级标注） |
+| [7.20 τ₀-VLA：世界模型引导测试时计算](./7.20-tau0-vla-world-model-guided-ttc-2026.md) | 分层子任务搜索、执行记忆、world-model-guided TTC、40 维掩码流匹配 | 论文、官方 GitHub、模型卡与示例数据；高层组件未完整公开 |
+| [7.21 Lumo-2：潜在世界—动作模型](./7.21-lumo2-latent-world-action-alignment-2026.md) | latent world dynamics、三阶段动作预对齐、BAR 动作解码 | 技术报告与公司项目页；代码、权重和完整数据未公开 |
 
 ## 证据等级
 
@@ -31,7 +33,7 @@
 
 ## 关联的输入资料
 
-本专题追溯了用户提供的 RhOS-World: Khora、LingBot、UniBot、世界模型综述、优艾智合 FabriGym、共生知行/丁鹏翔研究主页、Generalist GEN-1.5、Dyna-2 与相关微信公众号入口。Tesla 产业主张因适合独立的产业信息核验，归入 [`researches/2026-08-industry-platforms-claims/`](../../../researches/2026-08-industry-platforms-claims/README.md)。
+本专题新增追溯了用户提供的 τ₀-VLA、Lumo-2、VLA-Perf、Patch Policy、Science Robotics 系统案例以及 Tesla/FSD/Optimus 相关的九篇微信公众号入口。通用溯源台账位于 [`researches/2026-08-wechat-source-followup/`](../../../researches/2026-08-wechat-source-followup/README.md)；Tesla 产业主张因适合独立的产业信息核验，归入 [`researches/2026-08-industry-platforms-claims/`](../../../researches/2026-08-industry-platforms-claims/README.md)。
 
 ## 更新建议
 

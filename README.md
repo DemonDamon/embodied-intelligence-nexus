@@ -1,6 +1,6 @@
 # Embodied Intelligence Nexus
 
-> 作者：Damon Li | 更新日期：2026年8月22日
+> 作者：Damon Li | 更新日期：2026年8月23日
 
 **具身智能前沿技术与应用研究 | A Comprehensive Research Repository on Embodied AI**
 
@@ -27,7 +27,8 @@ embodied-intelligence-nexus/
 │   ├── 02-classical-control/          # 第二章：经典规划控制方法
 │   ├── 03-robot-vision/               # 第三章：机器人视觉方法
 │   ├── 04-deep-learning-grasping/     # 第四章：基于深度学习的抓取
-│   │   └── 4.7-dexterous-manipulation-2026.md  # 2026年灵巧操作与遥操作更新
+│   │   ├── 4.7-dexterous-manipulation-2026.md  # 2026年灵巧操作与遥操作更新
+│   │   └── 2026-08-dense-visual-policy/        # Patch Policy 密集视觉控制专题
 │   ├── 05-imitation-learning/         # 第五章：模仿学习
 │   │   ├── 2026-08-motiondecode-dataset/  # 具身动作数据集专题
 │   │   └── 5.8-embodied-datasets-benchmarks-2026.md  # Open-AoE 与 DexVerse
@@ -39,8 +40,11 @@ embodied-intelligence-nexus/
 │   │       ├── 7.16-vla-post-training-rl-2026.md        # VLA 后训练与 RL 微调
 │   │       ├── 7.17-world-models-for-robotics-2026.md   # 机器人世界模型
 │   │       ├── 7.18-humanoid-world-models-2026.md       # 人形世界动作模型
-│   │       └── 7.19-vla-training-paradigm-breakthroughs-2026.md  # VLA 训练范式与评测基准突破
+│   │       ├── 7.19-vla-training-paradigm-breakthroughs-2026.md  # VLA 训练范式与评测基准突破
+│   │       ├── 7.20-tau0-vla-world-model-guided-ttc-2026.md      # τ₀-VLA 测试时计算
+│   │       └── 7.21-lumo2-latent-world-action-alignment-2026.md # Lumo-2 潜在世界—动作模型
 │   └── 08-engineering-experience/     # 第八章：工程经验和总结展望
+│       └── 2026-08-vla-inference-performance/  # VLA-Perf 性能与部署工程专题
 └── researches/                        # 研究报告目录
     ├── README.md                      # 研究报告索引
     ├── 多模态与具身智能关键技术原理与创新发展趋势.md
@@ -53,6 +57,8 @@ embodied-intelligence-nexus/
     ├── 大模型平台选型与具身智能赋能行业落地案例解析.md
     ├── 2026-08-industry-platforms-claims/  # 产业平台与信息核验专题
     │   └── industry-supplement-august-2026.md  # AGIBOT/Galbot/NVIDIA/WHRG 补充
+    ├── 2026-08-robotics-systems-verification/ # 同行评审机器人系统案例专题
+    ├── 2026-08-wechat-source-followup/       # 九篇推文的一手来源溯源台账
     ├── images/                        # 技术图表与架构图
     └── diagrams/                      # 图表源文件（Mermaid）
 └── skills/                            # 仓库专用工作流
@@ -73,14 +79,14 @@ embodied-intelligence-nexus/
 | **第一章** | [机器人抓取与操作介绍](./course/01-robot-grasping-intro/README.md) | 运动规划、传感器、学习方法、实战工具、[2026开源框架与平台](./course/01-robot-grasping-intro/1.6-frameworks-platforms-2026.md) |
 | **第二章** | [经典规划控制方法](./course/02-classical-control/README.md) | 轨迹算法、控制算法、智能抓取接触方法 |
 | **第三章** | [机器人视觉方法](./course/03-robot-vision/README.md) | 传感器标定、特征系统、2D/3D图像处理、6D位姿估计 |
-| **第四章** | [基于深度学习的抓取](./course/04-deep-learning-grasping/README.md) | 2D/6DoF抓取、Dex Grasping、[2026 Sim-to-Real与操作新进展](./course/04-deep-learning-grasping/4.6-sim-to-real-and-manipulation-2026.md) |
+| **第四章** | [基于深度学习的抓取](./course/04-deep-learning-grasping/README.md) | 2D/6DoF抓取、Dex Grasping、[2026 Sim-to-Real与操作新进展](./course/04-deep-learning-grasping/4.6-sim-to-real-and-manipulation-2026.md)、[Patch Policy 密集视觉控制](./course/04-deep-learning-grasping/2026-08-dense-visual-policy/README.md) |
 | **第五章** | [模仿学习](./course/05-imitation-learning/README.md) | Behavior Cloning、Interactive IL、Inverse RL、[MotionDecode 具身动作数据集](./course/05-imitation-learning/2026-08-motiondecode-dataset/README.md) |
 | **第六章** | [强化学习方法](./course/06-reinforcement-learning/README.md) | Q-Learning、Policy Gradient、Actor Critic、Offline RL |
-| **第七章** | [具身智能：VLA与VLM模型](./course/07-vla-vlm-models/README.md) | Transformer、Diffusion Policy、RT1/RT2/Octo、[2026 WAMs模型更新](./course/07-vla-vlm-models/7.9-world-action-models-2026-updates.md)、[2026年8月已核验模型/世界模型/真实评测专题](./course/07-vla-vlm-models/2026-08-verified-embodied-ai-updates/README.md) |
-| **第八章** | [工程经验和总结展望](./course/08-engineering-experience/README.md) | 后处理优化、轨迹平滑、未来展望 |
+| **第七章** | [具身智能：VLA与VLM模型](./course/07-vla-vlm-models/README.md) | Transformer、Diffusion Policy、RT1/RT2/Octo、[2026 WAMs模型更新](./course/07-vla-vlm-models/7.9-world-action-models-2026-updates.md)、[τ₀-VLA 与 Lumo-2 深度核验](./course/07-vla-vlm-models/2026-08-verified-embodied-ai-updates/README.md) |
+| **第八章** | [工程经验和总结展望](./course/08-engineering-experience/README.md) | 后处理优化、轨迹平滑、未来展望、[VLA-Perf 推理性能与部署工程](./course/08-engineering-experience/2026-08-vla-inference-performance/README.md) |
 
 - **维护者**: Damon Li
-- **更新日期**: 2026年8月22日（新增 13 个具身智能资料入口的深度核验专题，并增强仓库专用深度研究更新 Skill）
+- **更新日期**: 2026年8月23日（新增 9 篇推文的一手来源溯源、τ₀-VLA/Lumo-2/Patch Policy/VLA-Perf 深度研究，以及同行评审机器人系统案例核验）
 
 ---
 
@@ -164,6 +170,22 @@ embodied-intelligence-nexus/
 
 ---
 
+### 🔟 [机器人系统控制与可复现性核验专题](./researches/2026-08-robotics-systems-verification/README.md)
+
+以同行评审论文、Code Ocean 与 Zenodo 为证据，审计磁控神经介入、ANYmal Parkour、EPIC 外骨骼和软体肩部穿戴机器人的控制机制、统计设计、公开数据和代码边界。
+
+**关键词**: 磁控连续体、Sim-to-Real、外骨骼控制、软体机器人、可复现性
+
+---
+
+### 1️⃣1️⃣ [九篇公众号推文的一手来源溯源台账](./researches/2026-08-wechat-source-followup/README.md)
+
+对九篇输入推文执行“线索—论文/官方页—代码/模型/数据”回溯，汇总 τ₀-VLA、Lumo-2、VLA-Perf、Patch Policy 等专题，并明确 Tesla 等产业主张的可证实边界。
+
+**关键词**: 证据分级、VLA、世界模型、开源资源、资料溯源
+
+---
+
 ## 🎯 核心价值
 
 - **系统性**: 覆盖技术原理、应用实践、安全治理、开发流程等全维度
@@ -203,7 +225,7 @@ embodied-intelligence-nexus/
 
 ## 📜 许可证
 
-本项目采用 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) 许可协议。  
+本项目采用 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) 许可协议。
 您可以自由分享和改编本内容，但需注明出处，且不得用于商业目的。
 
 ---
