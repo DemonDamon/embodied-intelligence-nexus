@@ -26,8 +26,10 @@ embodied-intelligence-nexus/
 │   ├── 03-robot-vision/               # 第三章：机器人视觉方法
 │   ├── 04-deep-learning-grasping/     # 第四章：基于深度学习的抓取
 │   ├── 05-imitation-learning/         # 第五章：模仿学习
+│   │   └── 2026-08-motiondecode-dataset/  # 具身动作数据集专题
 │   ├── 06-reinforcement-learning/     # 第六章：强化学习方法
 │   ├── 07-vla-vlm-models/             # 第七章：具身智能：VLA与VLM模型
+│   │   └── 2026-08-verified-embodied-ai-updates/  # 已核验模型、世界模型与真实评测专题
 │   └── 08-engineering-experience/     # 第八章：工程经验和总结展望
 └── researches/                        # 研究报告目录
     ├── README.md                      # 研究报告索引
@@ -39,8 +41,14 @@ embodied-intelligence-nexus/
     ├── 大模型智能体与具身智能的赋能场景与需求分析.md
     ├── 具身智能应用开发全流程及企业级解决方案与实践.md
     ├── 大模型平台选型与具身智能赋能行业落地案例解析.md
+    ├── 2026-08-industry-platforms-claims/  # 产业平台与信息核验专题
     ├── images/                        # 技术图表与架构图
     └── diagrams/                      # 图表源文件（Mermaid）
+└── skills/                            # 仓库专用工作流
+    └── embodied-intel-updater/        # 深度研究更新、理论/实验审计与资源核验 Skill
+        ├── SKILL.md
+        ├── references/                # 信源注册表、理论与实验审计标准
+        └── scripts/                   # 研究文档质量验收脚本
 ```
 
 ---
@@ -55,13 +63,19 @@ embodied-intelligence-nexus/
 | **第二章** | [经典规划控制方法](./course/02-classical-control/README.md) | 轨迹算法、控制算法、智能抓取接触方法 |
 | **第三章** | [机器人视觉方法](./course/03-robot-vision/README.md) | 传感器标定、特征系统、2D/3D图像处理、6D位姿估计 |
 | **第四章** | [基于深度学习的抓取](./course/04-deep-learning-grasping/README.md) | 2D/6DoF抓取、Dex Grasping、[2026 Sim-to-Real与操作新进展](./course/04-deep-learning-grasping/4.6-sim-to-real-and-manipulation-2026.md) |
-| **第五章** | [模仿学习](./course/05-imitation-learning/README.md) | Behavior Cloning、Interactive IL、Inverse RL |
+| **第五章** | [模仿学习](./course/05-imitation-learning/README.md) | Behavior Cloning、Interactive IL、Inverse RL、[MotionDecode 具身动作数据集](./course/05-imitation-learning/2026-08-motiondecode-dataset/README.md) |
 | **第六章** | [强化学习方法](./course/06-reinforcement-learning/README.md) | Q-Learning、Policy Gradient、Actor Critic、Offline RL |
-| **第七章** | [具身智能：VLA与VLM模型](./course/07-vla-vlm-models/README.md) | Transformer、Diffusion Policy、RT1/RT2/Octo、[2026 WAMs模型更新](./course/07-vla-vlm-models/7.9-world-action-models-2026-updates.md) |
+| **第七章** | [具身智能：VLA与VLM模型](./course/07-vla-vlm-models/README.md) | Transformer、Diffusion Policy、RT1/RT2/Octo、[2026 WAMs模型更新](./course/07-vla-vlm-models/7.9-world-action-models-2026-updates.md)、[2026年8月已核验模型/世界模型/真实评测专题](./course/07-vla-vlm-models/2026-08-verified-embodied-ai-updates/README.md) |
 | **第八章** | [工程经验和总结展望](./course/08-engineering-experience/README.md) | 后处理优化、轨迹平滑、未来展望 |
 
 - **维护者**: Damon Li
-- **更新日期**: 2026年6月10日 (新增2026年上半年学术与工业界最新进展)
+- **更新日期**: 2026年8月22日（新增 13 个具身智能资料入口的深度核验专题，并增强仓库专用深度研究更新 Skill）
+
+---
+
+## 🧭 知识库更新工作流
+
+仓库内置 [`embodied-intel-updater`](./skills/embodied-intel-updater/SKILL.md) 专用 Skill，用于周期性追踪具身智能的学术与产业进展。该工作流以论文、官方项目页、代码、模型卡、数据卡与基准页面为主要证据，要求补齐目标函数推导、训练/推理算法、实验协议、统计边界、失败模式与复现资源；微信公众号和媒体内容仅用于发现线索，不作为技术结论的单独依据。
 
 ---
 
@@ -128,6 +142,14 @@ embodied-intelligence-nexus/
 提出大模型平台选型的四维评估框架（技术能力、成本效益、生态支持、合规性）。对比GPT-4、Gemini、DeepSeek、智谱GLM等主流平台，并分析行业落地案例。
 
 **关键词**: 大模型选型、GPT-4、DeepSeek、行业落地
+
+---
+
+### 9️⃣ [2026年8月产业平台、硬件路线与信息核验](./researches/2026-08-industry-platforms-claims/README.md)
+
+对本次输入资料中的 Tesla Optimus、Terafab、AI5、Grok 等产业信息进行一手来源核验；同时提供 13 个资料入口与论文、官方项目页、GitHub、模型和数据集之间的可追溯台账。未获官方或论文证实的量化指标均明确标记为待核验。
+
+**关键词**: 产业核验、Optimus、具身模型、世界模型、开源资源、数据集
 
 ---
 

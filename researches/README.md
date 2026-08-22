@@ -36,6 +36,10 @@
    - 提出大模型平台选型的四维评估框架
    - 对比GPT-4、Gemini、DeepSeek等主流平台，并分析行业落地案例
 
+9. [2026年8月产业平台、硬件路线与信息核验](./2026-08-industry-platforms-claims/README.md)
+   - 核验 Tesla Optimus、Terafab、AI5、Grok 等产业信息，明确官方披露与未证实量化主张的边界
+   - 提供本次 13 个具身智能入口资料的资源追溯台账，并链接到课程章节中的论文、GitHub、模型与数据集资料
+
 ## 🖼️ 技术图表
 
 本研究配套的技术架构图和示意图保存在 `images/` 目录：
@@ -51,7 +55,7 @@
 ## 📖 关于本研究
 
 **作者**: Damon Li  
-**日期**: 2025年12月03日  
+**日期**: 2026年8月22日
 **仓库**: [embodied-intelligence-nexus](https://github.com/DemonDamon/embodied-intelligence-nexus)
 
 本研究旨在为政府决策者、企业管理者、技术开发者和学术研究者提供关于具身智能的全面、深入、前沿的知识体系，助力中国在具身智能时代抢占战略制高点。
