@@ -38,7 +38,8 @@ embodied-intelligence-nexus/
 │   │       ├── 7.15-vla-architecture-innovations-2026.md # VLA 架构创新
 │   │       ├── 7.16-vla-post-training-rl-2026.md        # VLA 后训练与 RL 微调
 │   │       ├── 7.17-world-models-for-robotics-2026.md   # 机器人世界模型
-│   │       └── 7.18-humanoid-world-models-2026.md       # 人形世界动作模型
+│   │       ├── 7.18-humanoid-world-models-2026.md       # 人形世界动作模型
+│   │       └── 7.19-vla-training-paradigm-breakthroughs-2026.md  # VLA 训练范式与评测基准突破
 │   └── 08-engineering-experience/     # 第八章：工程经验和总结展望
 └── researches/                        # 研究报告目录
     ├── README.md                      # 研究报告索引

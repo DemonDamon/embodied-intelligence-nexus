@@ -19,6 +19,7 @@
 | [7.16 VLA 后训练与 RL 微调](./7.16-vla-post-training-rl-2026.md) | ExToken（结构化探索）、Z-1（GRPO for flow-based VLA）、DEED（零售场景部署） | 论文 |
 | [7.17 机器人世界模型](./7.17-world-models-for-robotics-2026.md) | Robot-Factored World Models、RoboWorld（神经仿真评估）、GeniWorld（可泛化交互世界模型） | 论文、项目页 |
 | [7.18 人形世界动作模型](./7.18-humanoid-world-models-2026.md) | ω-0（latent predictive WAM + ω-HOME 数据集）、GigaBrain-WBC-0.5（行为世界模型） | 论文 |
+| [7.19 VLA 训练范式与评测基准突破](./7.19-vla-training-paradigm-breakthroughs-2026.md) | Recap/π*0.6、OpenVLA-OFT、latent action 预训练、离散扩散/流匹配动作解码、HybridVLA、RoboDojo、LIBERO-PRO/Plus、RoboArena、AutoEval、vla-eval | 论文、OpenReview、官方博客（B 级标注） |
 
 ## 证据等级
 

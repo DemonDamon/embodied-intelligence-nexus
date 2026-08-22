@@ -81,5 +81,27 @@
 - MIDAS Hand: https://arxiv.org/abs/2607.14487
 - NVIDIA GR00T: https://github.com/nvidia/isaac-gr00t
 - NVIDIA Cosmos 3: https://developer.nvidia.com/blog/develop-physical-ai-reasoning-world-and-action-models-with-nvidia-cosmos-3
+- Recap / π*0.6: https://arxiv.org/abs/2511.14759
+- OpenVLA-OFT: https://arxiv.org/abs/2502.19645
+- DreamGen: https://arxiv.org/abs/2505.12705
+- InternData-A1: https://arxiv.org/abs/2511.16651
+- RL-Co: https://arxiv.org/abs/2602.12628
+- Discrete Diffusion VLA: https://arxiv.org/abs/2508.20072
+- DFM-VLA: https://arxiv.org/abs/2603.26320
+- AsyncVLA: https://arxiv.org/abs/2511.14148
+- HybridVLA: https://openreview.net/forum?id=H1KDMNOKQn
+- ACoT-VLA: https://arxiv.org/abs/2601.11404
+- LIBERO-PRO: https://arxiv.org/abs/2510.03827
+- LIBERO-Plus: https://arxiv.org/abs/2510.13626
+- RoboDojo: https://arxiv.org/abs/2607.04434
+- RoboArena: https://arxiv.org/abs/2506.18123
+- AutoEval: https://arxiv.org/abs/2503.24278
+- Colosseum V2: https://arxiv.org/abs/2605.27759
+- AgiBot World Colosseo: https://arxiv.org/abs/2503.06669
+- Galaxea Open-World / G0: https://arxiv.org/abs/2509.00576
+- MolmoAct2: https://arxiv.org/abs/2605.02881
+- NVIDIA GR00T N1.6/1.7: https://developer.nvidia.com/blog/develop-humanoid-robot-policies-end-to-end-with-nvidia-isaac-gr00t/
+- Figure Helix 02: https://www.figure.ai/news/helix-02
+- ByteDance GR-3/GR-RL: https://seed.bytedance.com/zh/direction/robotics
 
 更新本表时，优先添加稳定的一级入口而非单篇新闻链接。
