@@ -1,7 +1,7 @@
 # 2026年8月具身模型、世界模型与真实评测更新
 
 > 作者：Damon Li
-> 更新日期：2026年8月23日
+> 更新日期：2026年8月25日
 > 核验口径：优先使用论文原文、官方项目页、官方 GitHub、Hugging Face / ModelScope 与公司官网；微信公众号文章仅作为线索与出处追溯，不将未经一手来源证实的主张视为事实。
 
 本专题归档 2026 年 7—8 月新增的具身基础模型、世界动作模型（World-Action Model, WAM）、人形机器人真实评测、开源 VLA 研究与仿真平台资料。内容将**论文证据**、**官方产品披露**与**未公开信息**分开处理，便于后续复核、复现与持续更新。
@@ -26,6 +26,8 @@
 | [7.23 具身 MoE：VLA 与世界模型](./7.23-moe-for-vla-and-world-models-2025-2026.md) | AdaMoE-VLA 动作专家；Worldscape-MoE 异构控制 | 两篇预印本；AdaMoE 代码为 MIT，Worldscape 资源未核验 |
 | [7.24 Masked Visual Actions 统一世界模型](./7.24-masked-visual-actions-unified-world-model-2026.md) | 像素空间动作掩码、前向 rollout、逆向动作生成 | 预印本、项目页、Apache-2.0 代码与权重入口 |
 | [7.25 VLA/世界模型综述阅读图谱](./7.25-vla-world-model-survey-reading-map-2026.md) | VLA、世界模型、广义具身 AI 与 VLN 的边界 | 综述与资源入口；已撤稿 VLN 条目明确排除为主依据 |
+| [7.26 PSG-JEPA：物理状态锚定](./7.26-psg-jepa-physical-state-grounding-2026.md) | static/dynamic grounding、JEPA latent 可辨识性、规划与真机操作 | 预印本、项目页、官方代码；数据依赖 LeWM/OGBench 路径 |
+| [7.27 物理仿真器与世界模型](./7.27-simulators-and-world-models-survey-2025.md) | 显式仿真、学习型 dynamics、MPC 与 sim-to-real 的互补性 | 预印本 v3、Apache-2.0 资源仓；综述非统一实现 |
 
 ## 证据等级
 
@@ -38,6 +40,8 @@
 ## 关联的输入资料
 
 本专题新增追溯了用户提供的 τ₀-VLA、Lumo-2、VLA-Perf、Patch Policy、Science Robotics 系统案例以及 Tesla/FSD/Optimus 相关的九篇微信公众号入口。通用溯源台账位于 [`researches/2026-08-wechat-source-followup/`](../../../researches/2026-08-wechat-source-followup/README.md)；Tesla 产业主张因适合独立的产业信息核验，归入 [`researches/2026-08-industry-platforms-claims/`](../../../researches/2026-08-industry-platforms-claims/README.md)。
+
+本轮新增 PSG-JEPA、物理仿真器—世界模型综述及人类视频到 VLA 综述三项公众号线索；来源台账位于 [`researches/2026-08-wechat-embodied-source-followup-0825/`](../../../researches/2026-08-wechat-embodied-source-followup-0825/README.md)，其中人类视频主题归入第 5 章模仿学习。
 
 ## 更新建议
 

@@ -54,6 +54,10 @@
 13. [RSS 2026 闭环多智能体多机器人操作](./2026-08-rss-closed-loop-multi-robot-manipulation.md)
     - 独立分析 Planning、Manipulation、Verification 三类 agent 的闭环系统结构、真机证据与端到端复现边界
 
+14. [三篇公众号具身智能线索：来源台账与跨章节导航](./2026-08-wechat-embodied-source-followup-0825/README.md)
+    - 保留 PSG-JEPA、人类视频到 VLA、物理仿真器—世界模型三项输入的溯源、证据等级与课程归档位置
+    - 技术正文分别归入第 5 章和第 7 章，不以台账重复承载理论与实验内容
+
 ## 🖼️ 技术图表
 
 本研究配套的技术架构图和示意图保存在 `images/` 目录：
@@ -69,7 +73,7 @@
 ## 📖 关于本研究
 
 **作者**: Damon Li
-**日期**: 2026年8月23日
+**日期**: 2026年8月25日
 **仓库**: [embodied-intelligence-nexus](https://github.com/DemonDamon/embodied-intelligence-nexus)
 
 本研究旨在为政府决策者、企业管理者、技术开发者和学术研究者提供关于具身智能的全面、深入、前沿的知识体系，助力中国在具身智能时代抢占战略制高点。
