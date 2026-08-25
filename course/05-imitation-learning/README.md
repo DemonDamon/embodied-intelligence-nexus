@@ -16,3 +16,5 @@
   - 覆盖 ChingMu 1000 小时具身动作数据集的模态、下载、许可核验、人形重定向与模仿学习使用边界。
 - [5.8 2026年8月具身数据集与基准更新](./5.8-embodied-datasets-benchmarks-2026.md)
   - 覆盖 Open-AoE（2000h 手机采集第一人称操纵数据集与工具链）和 DexVerse（100任务/3臂/6手模块化灵巧操作基准）。
+- [5.9 LATENT：从不完美人类运动片段学习人形网球技能](./5.9-latent-humanoid-tennis-imitation-2026.md)
+  - 审计动作跟踪、在线蒸馏、高层策略、sim-to-real 与 Unitree G1 真机部署的公开程度；不将赛事新闻替代为论文实验。

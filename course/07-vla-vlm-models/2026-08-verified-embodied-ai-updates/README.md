@@ -22,6 +22,10 @@
 | [7.19 VLA 训练范式与评测基准突破](./7.19-vla-training-paradigm-breakthroughs-2026.md) | Recap/π*0.6、OpenVLA-OFT、latent action 预训练、离散扩散/流匹配动作解码、HybridVLA、RoboDojo、LIBERO-PRO/Plus、RoboArena、AutoEval、vla-eval | 论文、OpenReview、官方博客（B 级标注） |
 | [7.20 τ₀-VLA：世界模型引导测试时计算](./7.20-tau0-vla-world-model-guided-ttc-2026.md) | 分层子任务搜索、执行记忆、world-model-guided TTC、40 维掩码流匹配 | 论文、官方 GitHub、模型卡与示例数据；高层组件未完整公开 |
 | [7.21 Lumo-2：潜在世界—动作模型](./7.21-lumo2-latent-world-action-alignment-2026.md) | latent world dynamics、三阶段动作预对齐、BAR 动作解码 | 技术报告与公司项目页；代码、权重和完整数据未公开 |
+| [7.22 XCoT-VLA：可执行思维链驾驶 VLA](./7.22-xcot-vla-executable-cot-driving-2026.md) | 紧凑 Reason–Action token、确定性 FFN 路由、flow-matching 轨迹 | 预印本；相邻 X-World 为公司披露；代码/权重未核验 |
+| [7.23 具身 MoE：VLA 与世界模型](./7.23-moe-for-vla-and-world-models-2025-2026.md) | AdaMoE-VLA 动作专家；Worldscape-MoE 异构控制 | 两篇预印本；AdaMoE 代码为 MIT，Worldscape 资源未核验 |
+| [7.24 Masked Visual Actions 统一世界模型](./7.24-masked-visual-actions-unified-world-model-2026.md) | 像素空间动作掩码、前向 rollout、逆向动作生成 | 预印本、项目页、Apache-2.0 代码与权重入口 |
+| [7.25 VLA/世界模型综述阅读图谱](./7.25-vla-world-model-survey-reading-map-2026.md) | VLA、世界模型、广义具身 AI 与 VLN 的边界 | 综述与资源入口；已撤稿 VLN 条目明确排除为主依据 |
 
 ## 证据等级
 

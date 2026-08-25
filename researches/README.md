@@ -1,6 +1,6 @@
 # 具身智能前沿技术与应用研究
 
-本目录包含8份关于具身智能（Embodied AI）的专业调研报告，涵盖技术原理、应用案例、安全治理、开发实践等多个维度。
+本目录汇集关于具身智能（Embodied AI）的专业调研报告与可追溯专题，涵盖技术原理、应用案例、安全治理、开发实践及一手来源核验。
 
 ## 📚 研究报告列表
 
@@ -47,6 +47,12 @@
 11. [九篇公众号推文的一手来源溯源台账](./2026-08-wechat-source-followup/README.md)
     - 对 τ₀-VLA、Lumo-2、VLA-Perf、Patch Policy、系统机器人研究和 Tesla 相关线索执行证据分级
     - 明确哪些结论已由论文/官方资源支持，哪些内容必须继续等待一手披露
+
+12. [七篇公众号具身智能线索的一手来源台账与跨章节导航](./2026-08-wechat-embodied-source-followup/README.md)
+    - 保存公众号线索、证据等级与最终归档位置；技术正文已按课程/研究专题分别存放，不再混写在单一报告中
+
+13. [RSS 2026 闭环多智能体多机器人操作](./2026-08-rss-closed-loop-multi-robot-manipulation.md)
+    - 独立分析 Planning、Manipulation、Verification 三类 agent 的闭环系统结构、真机证据与端到端复现边界
 
 ## 🖼️ 技术图表
 

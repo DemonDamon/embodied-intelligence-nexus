@@ -1,6 +1,6 @@
 # Embodied Intelligence Nexus
 
-> 作者：Damon Li | 更新日期：2026年8月23日
+> 作者：Damon Li | 更新日期：2026年8月25日
 
 **具身智能前沿技术与应用研究 | A Comprehensive Research Repository on Embodied AI**
 
@@ -11,7 +11,7 @@
 
 ## 🌟 项目简介
 
-本仓库是一个关于**具身智能（Embodied AI）**的综合性研究项目，旨在系统性地探索具身智能与多模态AI的融合、安全治理、技术创新和产业应用。项目涵盖8份深度调研报告，从技术原理到实践案例，从安全风险到开发流程，为理解和应用具身智能提供全方位的知识体系。
+本仓库是一个关于**具身智能（Embodied AI）**的综合性研究项目，旨在系统性地探索具身智能与多模态AI的融合、安全治理、技术创新和产业应用。项目涵盖系统课程、深度调研报告与可追溯专题，从技术原理到实践案例、从安全风险到开发流程，并将公众号等二手线索回溯至论文、会议页、项目页和官方代码，为理解和应用具身智能提供可复核的知识体系。
 
 **具身智能**是人工智能向物理世界延伸的关键形态，它通过将AI的感知、决策和控制能力与机器人等物理实体相结合，使智能系统能够在真实环境中自主学习、适应和行动。随着大型语言模型（LLM）的突破性进展，具身智能正迎来前所未有的发展机遇，成为工业制造、医疗健康、智慧城市和家庭服务等领域的变革性力量。
 
@@ -31,7 +31,8 @@ embodied-intelligence-nexus/
 │   │   └── 2026-08-dense-visual-policy/        # Patch Policy 密集视觉控制专题
 │   ├── 05-imitation-learning/         # 第五章：模仿学习
 │   │   ├── 2026-08-motiondecode-dataset/  # 具身动作数据集专题
-│   │   └── 5.8-embodied-datasets-benchmarks-2026.md  # Open-AoE 与 DexVerse
+│   │   ├── 5.8-embodied-datasets-benchmarks-2026.md  # Open-AoE 与 DexVerse
+│   │   └── 5.9-latent-humanoid-tennis-imitation-2026.md  # LATENT 人形网球模仿学习
 │   ├── 06-reinforcement-learning/     # 第六章：强化学习方法
 │   ├── 07-vla-vlm-models/             # 第七章：具身智能：VLA与VLM模型
 │   │   └── 2026-08-verified-embodied-ai-updates/  # 已核验模型、世界模型与真实评测专题
@@ -42,9 +43,13 @@ embodied-intelligence-nexus/
 │   │       ├── 7.18-humanoid-world-models-2026.md       # 人形世界动作模型
 │   │       ├── 7.19-vla-training-paradigm-breakthroughs-2026.md  # VLA 训练范式与评测基准突破
 │   │       ├── 7.20-tau0-vla-world-model-guided-ttc-2026.md      # τ₀-VLA 测试时计算
-│   │       └── 7.21-lumo2-latent-world-action-alignment-2026.md # Lumo-2 潜在世界—动作模型
+│   │       ├── 7.21-lumo2-latent-world-action-alignment-2026.md # Lumo-2 潜在世界—动作模型
+│   │       ├── 7.22-xcot-vla-executable-cot-driving-2026.md      # XCoT-VLA 可执行思维链
+│   │       ├── 7.23-moe-for-vla-and-world-models-2025-2026.md    # 具身 MoE
+│   │       ├── 7.24-masked-visual-actions-unified-world-model-2026.md # MVA 统一世界模型
+│   │       └── 7.25-vla-world-model-survey-reading-map-2026.md  # VLA/世界模型阅读图谱
 │   └── 08-engineering-experience/     # 第八章：工程经验和总结展望
-│       └── 2026-08-vla-inference-performance/  # VLA-Perf 性能与部署工程专题
+│       └── 2026-08-vla-inference-performance/  # VLA-Perf 与 DriveVLA-M0 性能/部署专题
 └── researches/                        # 研究报告目录
     ├── README.md                      # 研究报告索引
     ├── 多模态与具身智能关键技术原理与创新发展趋势.md
@@ -59,6 +64,8 @@ embodied-intelligence-nexus/
     │   └── industry-supplement-august-2026.md  # AGIBOT/Galbot/NVIDIA/WHRG 补充
     ├── 2026-08-robotics-systems-verification/ # 同行评审机器人系统案例专题
     ├── 2026-08-wechat-source-followup/       # 九篇推文的一手来源溯源台账
+    ├── 2026-08-wechat-embodied-source-followup/ # 七篇公众号线索台账与跨章节导航
+    ├── 2026-08-rss-closed-loop-multi-robot-manipulation.md # RSS 2026 多机器人闭环系统
     ├── images/                        # 技术图表与架构图
     └── diagrams/                      # 图表源文件（Mermaid）
 └── skills/                            # 仓库专用工作流
@@ -80,13 +87,13 @@ embodied-intelligence-nexus/
 | **第二章** | [经典规划控制方法](./course/02-classical-control/README.md) | 轨迹算法、控制算法、智能抓取接触方法 |
 | **第三章** | [机器人视觉方法](./course/03-robot-vision/README.md) | 传感器标定、特征系统、2D/3D图像处理、6D位姿估计 |
 | **第四章** | [基于深度学习的抓取](./course/04-deep-learning-grasping/README.md) | 2D/6DoF抓取、Dex Grasping、[2026 Sim-to-Real与操作新进展](./course/04-deep-learning-grasping/4.6-sim-to-real-and-manipulation-2026.md)、[Patch Policy 密集视觉控制](./course/04-deep-learning-grasping/2026-08-dense-visual-policy/README.md) |
-| **第五章** | [模仿学习](./course/05-imitation-learning/README.md) | Behavior Cloning、Interactive IL、Inverse RL、[MotionDecode 具身动作数据集](./course/05-imitation-learning/2026-08-motiondecode-dataset/README.md) |
+| **第五章** | [模仿学习](./course/05-imitation-learning/README.md) | Behavior Cloning、Interactive IL、Inverse RL、[MotionDecode 具身动作数据集](./course/05-imitation-learning/2026-08-motiondecode-dataset/README.md)、[LATENT 人形网球模仿学习](./course/05-imitation-learning/5.9-latent-humanoid-tennis-imitation-2026.md) |
 | **第六章** | [强化学习方法](./course/06-reinforcement-learning/README.md) | Q-Learning、Policy Gradient、Actor Critic、Offline RL |
-| **第七章** | [具身智能：VLA与VLM模型](./course/07-vla-vlm-models/README.md) | Transformer、Diffusion Policy、RT1/RT2/Octo、[2026 WAMs模型更新](./course/07-vla-vlm-models/7.9-world-action-models-2026-updates.md)、[τ₀-VLA 与 Lumo-2 深度核验](./course/07-vla-vlm-models/2026-08-verified-embodied-ai-updates/README.md) |
-| **第八章** | [工程经验和总结展望](./course/08-engineering-experience/README.md) | 后处理优化、轨迹平滑、未来展望、[VLA-Perf 推理性能与部署工程](./course/08-engineering-experience/2026-08-vla-inference-performance/README.md) |
+| **第七章** | [具身智能：VLA与VLM模型](./course/07-vla-vlm-models/README.md) | Transformer、Diffusion Policy、RT1/RT2/Octo、[2026 WAMs模型更新](./course/07-vla-vlm-models/7.9-world-action-models-2026-updates.md)、[XCoT-VLA、MoE、MVA 与阅读图谱](./course/07-vla-vlm-models/2026-08-verified-embodied-ai-updates/README.md) |
+| **第八章** | [工程经验和总结展望](./course/08-engineering-experience/README.md) | 后处理优化、轨迹平滑、未来展望、[VLA-Perf 与 DriveVLA-M0 推理性能/部署专题](./course/08-engineering-experience/2026-08-vla-inference-performance/README.md) |
 
 - **维护者**: Damon Li
-- **更新日期**: 2026年8月23日（新增 9 篇推文的一手来源溯源、τ₀-VLA/Lumo-2/Patch Policy/VLA-Perf 深度研究，以及同行评审机器人系统案例核验）
+- **更新日期**: 2026年8月25日（新增七篇公众号线索的分层归档：LATENT、XCoT-VLA、具身 MoE、MVA、DriveVLA-M0、综述阅读图谱和 RSS 2026 多机器人闭环系统）
 
 ---
 
@@ -183,6 +190,22 @@ embodied-intelligence-nexus/
 对九篇输入推文执行“线索—论文/官方页—代码/模型/数据”回溯，汇总 τ₀-VLA、Lumo-2、VLA-Perf、Patch Policy 等专题，并明确 Tesla 等产业主张的可证实边界。
 
 **关键词**: 证据分级、VLA、世界模型、开源资源、资料溯源
+
+---
+
+### 1️⃣2️⃣ [七篇公众号具身智能线索：台账与跨章节导航](./researches/2026-08-wechat-embodied-source-followup/README.md)
+
+本专题只保存输入线索、证据等级和最终归档位置；XCoT-VLA、LATENT、具身 MoE、MVA、DriveVLA-M0、综述阅读图谱及 RSS 多机器人框架已分别写入最贴近的课程章节或研究专题。
+
+**关键词**: 分层归档、VLA、世界模型、模仿学习、工程时延、多机器人系统
+
+---
+
+### 1️⃣3️⃣ [RSS 2026 闭环多智能体多机器人操作](./researches/2026-08-rss-closed-loop-multi-robot-manipulation.md)
+
+独立审计 Planning、Manipulation、Verification 三类 agent 的闭环结构、真机证据和端到端复现边界，不将其混同为单一端到端模型。
+
+**关键词**: 多机器人、LLM Agent、闭环验证、任务分解、真实操作
 
 ---
 
