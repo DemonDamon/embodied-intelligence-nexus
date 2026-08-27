@@ -26,6 +26,7 @@
 | 北京大学具身智能与机器人研究中心 | https://www.ai.pku.edu.cn/kxyj1/tyrgznyjs/jsznyjqryjzx.htm | 机构研究线索。 |
 | 复旦大学可信具身智能研究院 | https://teai.fudan.edu.cn/ | 可信具身研究线索。 |
 | AIRS Center for Embodied AI | https://airs.cuhk.edu.cn/en/research/1138 | 多模态具身系统研究线索。 |
+| AIRSEAI | https://airs.cuhk.edu.cn/en/airseai | 具身机器人软件栈；同时核验官方代码和 Linux Foundation 项目页，路线图须与已发布版本分开记录。 |
 
 ## 3. 代码、模型、数据与基准入口
 
@@ -54,6 +55,7 @@
 | Generalist AI | https://generalistai.com/blog | 官方研究博客；须标注为公司披露。 |
 | Dyna Robotics | https://www.dyna.co/research | 官方研究博客；须标注为公司披露。 |
 | Robbyant | https://technology.robbyant.com/ | LingBot 系列技术、代码、模型入口。 |
+| AIRSEAI / LF AI & Data | https://lfaidata.foundation/projects/airseai/ | 开源具身软件栈的项目治理与生态更新；需回溯官方代码、LICENSE 和版本状态。 |
 | YOUIBOT | https://zh.youibot.com/ | 工业具身平台与官方公告。 |
 
 ## 5. 发现源：只作线索，不作证据
@@ -103,5 +105,9 @@
 - NVIDIA GR00T N1.6/1.7: https://developer.nvidia.com/blog/develop-humanoid-robot-policies-end-to-end-with-nvidia-isaac-gr00t/
 - Figure Helix 02: https://www.figure.ai/news/helix-02
 - ByteDance GR-3/GR-RL: https://seed.bytedance.com/zh/direction/robotics
+- AIRSEAI 1.0: https://github.com/AIRSEAI/AIRSEAI-1.0
+- VLA-REPLICA: https://arxiv.org/abs/2605.20774
+- Pointing-VLA: https://arxiv.org/abs/2608.23138
+- GlanceWAM: https://arxiv.org/abs/2608.23927
 
 更新本表时，优先添加稳定的一级入口而非单篇新闻链接。

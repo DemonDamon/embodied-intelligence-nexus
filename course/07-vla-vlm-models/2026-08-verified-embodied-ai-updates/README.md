@@ -29,6 +29,8 @@
 | [7.26 PSG-JEPA：物理状态锚定](./7.26-psg-jepa-physical-state-grounding-2026.md) | static/dynamic grounding、JEPA latent 可辨识性、规划与真机操作 | 预印本、项目页、官方代码；数据依赖 LeWM/OGBench 路径 |
 | [7.27 物理仿真器与世界模型](./7.27-simulators-and-world-models-survey-2025.md) | 显式仿真、学习型 dynamics、MPC 与 sim-to-real 的互补性 | 预印本 v3、Apache-2.0 资源仓；综述非统一实现 |
 | [7.28 VA/VLA/WM/WAM：术语与闭环分类](./7.28-va-vla-wm-wam-taxonomy-2026.md) | 条件策略、预测动态、Cascaded/Joint WAM、Video-Action 消歧 | VLA 论文、WAM 预印本、LingBot-VA/2.0 论文与 Apache-2.0 代码；VA 非统一标准术语 |
+| [7.29 Pointing-VLA：类型化空间读出](./7.29-pointing-vla-typed-spatial-grounding-2026.md) | 点、功能接触热图与视觉轨迹；OFG-PICK / Pointing-PLACE 执行合约 | 预印本；Embodied-R1.5 的代码/模型可用；Pointing-VLA 自身独立权重与训练 artifact 未发现 |
+| [7.30 GlanceWAM：异步测试时想象](./7.30-glancewam-asynchronous-test-time-imagination-2026.md) | 异步 lookahead latent、3-class Prefix-LM、staleness-robust flow matching | 预印本、MIT 代码、21 GB 数据/权重 bundle 与模拟评测脚本；真机结果未见 |
 
 ## 证据等级
 
@@ -45,6 +47,8 @@
 本轮新增 PSG-JEPA、物理仿真器—世界模型综述及人类视频到 VLA 综述三项公众号线索；来源台账位于 [`researches/2026-08-wechat-embodied-source-followup-0825/`](../../../researches/2026-08-wechat-embodied-source-followup-0825/README.md)，其中人类视频主题归入第 5 章模仿学习。
 
 本次新增 VA/VLA/WM/WAM 术语分类文档；其输入线索和来源链位于 [`researches/2026-08-wechat-embodied-source-followup-0827/`](../../../researches/2026-08-wechat-embodied-source-followup-0827/README.md)。同批“全模态具身数据”主题归入第 5 章。
+
+本轮对近期权威论文与官方项目的增量扫描补充了 Pointing-VLA 与 GlanceWAM；候选筛选、来源等级、排除的单一来源条目及跨章节索引位于 [`researches/2026-08-authoritative-embodied-incremental-scan/`](../../../researches/2026-08-authoritative-embodied-incremental-scan/README.md)。
 
 ## 更新建议
 

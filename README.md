@@ -24,6 +24,7 @@ embodied-intelligence-nexus/
 ├── README.md                          # 项目主文档
 ├── course/                            # 课程内容目录
 │   ├── 01-robot-grasping-intro/       # 第一章：机器人抓取与操作介绍
+│   │   └── 1.7-airseai-open-source-robot-stack-2026.md # AIRSEAI 1.0 开源具身软件栈
 │   ├── 02-classical-control/          # 第二章：经典规划控制方法
 │   ├── 03-robot-vision/               # 第三章：机器人视觉方法
 │   ├── 04-deep-learning-grasping/     # 第四章：基于深度学习的抓取
@@ -34,7 +35,8 @@ embodied-intelligence-nexus/
 │   │   ├── 5.8-embodied-datasets-benchmarks-2026.md  # Open-AoE 与 DexVerse
 │   │   ├── 5.9-latent-humanoid-tennis-imitation-2026.md  # LATENT 人形网球模仿学习
 │   │   ├── 5.10-human-videos-to-vla-survey-2026.md  # 人类视频到 VLA 表征桥接综述
-│   │   └── 5.11-multimodal-embodied-data-infrastructure-2026.md # 全模态具身数据基础设施
+│   │   ├── 5.11-multimodal-embodied-data-infrastructure-2026.md # 全模态具身数据基础设施
+│   │   └── 5.12-vla-replica-reproducible-real-world-benchmark-2026.md # VLA-REPLICA 真机评测
 │   ├── 06-reinforcement-learning/     # 第六章：强化学习方法
 │   ├── 07-vla-vlm-models/             # 第七章：具身智能：VLA与VLM模型
 │   │   └── 2026-08-verified-embodied-ai-updates/  # 已核验模型、世界模型与真实评测专题
@@ -52,7 +54,9 @@ embodied-intelligence-nexus/
 │   │       ├── 7.25-vla-world-model-survey-reading-map-2026.md  # VLA/世界模型阅读图谱
 │   │       ├── 7.26-psg-jepa-physical-state-grounding-2026.md  # PSG-JEPA 物理状态锚定
 │   │       ├── 7.27-simulators-and-world-models-survey-2025.md # 仿真器与世界模型综述
-│   │       └── 7.28-va-vla-wm-wam-taxonomy-2026.md # VA/VLA/WM/WAM 术语与闭环分类
+│   │       ├── 7.28-va-vla-wm-wam-taxonomy-2026.md # VA/VLA/WM/WAM 术语与闭环分类
+│   │       ├── 7.29-pointing-vla-typed-spatial-grounding-2026.md # Pointing-VLA 类型化空间读出
+│   │       └── 7.30-glancewam-asynchronous-test-time-imagination-2026.md # GlanceWAM 异步测试时想象
 │   └── 08-engineering-experience/     # 第八章：工程经验和总结展望
 │       └── 2026-08-vla-inference-performance/  # VLA-Perf 与 DriveVLA-M0 性能/部署专题
 └── researches/                        # 研究报告目录
@@ -72,6 +76,7 @@ embodied-intelligence-nexus/
     ├── 2026-08-wechat-embodied-source-followup/ # 七篇公众号线索台账与跨章节导航
     ├── 2026-08-wechat-embodied-source-followup-0825/ # 三篇公众号线索台账与跨章节导航
     ├── 2026-08-wechat-embodied-source-followup-0827/ # 两篇公众号线索台账与跨章节导航
+    ├── 2026-08-authoritative-embodied-incremental-scan/ # 权威来源增量扫描台账
     ├── 2026-08-rss-closed-loop-multi-robot-manipulation.md # RSS 2026 多机器人闭环系统
     ├── images/                        # 技术图表与架构图
     └── diagrams/                      # 图表源文件（Mermaid）
@@ -90,17 +95,17 @@ embodied-intelligence-nexus/
 
 | 章节编号 | 章节名称 | 核心内容 |
 | :--- | :--- | :--- |
-| **第一章** | [机器人抓取与操作介绍](./course/01-robot-grasping-intro/README.md) | 运动规划、传感器、学习方法、实战工具、[2026开源框架与平台](./course/01-robot-grasping-intro/1.6-frameworks-platforms-2026.md) |
+| **第一章** | [机器人抓取与操作介绍](./course/01-robot-grasping-intro/README.md) | 运动规划、传感器、学习方法、实战工具、[2026开源框架与平台](./course/01-robot-grasping-intro/1.6-frameworks-platforms-2026.md)、[AIRSEAI 1.0 开源具身软件栈](./course/01-robot-grasping-intro/1.7-airseai-open-source-robot-stack-2026.md) |
 | **第二章** | [经典规划控制方法](./course/02-classical-control/README.md) | 轨迹算法、控制算法、智能抓取接触方法 |
 | **第三章** | [机器人视觉方法](./course/03-robot-vision/README.md) | 传感器标定、特征系统、2D/3D图像处理、6D位姿估计 |
 | **第四章** | [基于深度学习的抓取](./course/04-deep-learning-grasping/README.md) | 2D/6DoF抓取、Dex Grasping、[2026 Sim-to-Real与操作新进展](./course/04-deep-learning-grasping/4.6-sim-to-real-and-manipulation-2026.md)、[Patch Policy 密集视觉控制](./course/04-deep-learning-grasping/2026-08-dense-visual-policy/README.md) |
-| **第五章** | [模仿学习](./course/05-imitation-learning/README.md) | Behavior Cloning、Interactive IL、Inverse RL、[MotionDecode 具身动作数据集](./course/05-imitation-learning/2026-08-motiondecode-dataset/README.md)、[LATENT 人形网球模仿学习](./course/05-imitation-learning/5.9-latent-humanoid-tennis-imitation-2026.md)、[人类视频到 VLA 表征桥接综述](./course/05-imitation-learning/5.10-human-videos-to-vla-survey-2026.md)、[全模态具身数据基础设施](./course/05-imitation-learning/5.11-multimodal-embodied-data-infrastructure-2026.md) |
+| **第五章** | [模仿学习](./course/05-imitation-learning/README.md) | Behavior Cloning、Interactive IL、Inverse RL、[MotionDecode 具身动作数据集](./course/05-imitation-learning/2026-08-motiondecode-dataset/README.md)、[LATENT 人形网球模仿学习](./course/05-imitation-learning/5.9-latent-humanoid-tennis-imitation-2026.md)、[人类视频到 VLA 表征桥接综述](./course/05-imitation-learning/5.10-human-videos-to-vla-survey-2026.md)、[全模态具身数据基础设施](./course/05-imitation-learning/5.11-multimodal-embodied-data-infrastructure-2026.md)、[VLA-REPLICA 真机评测](./course/05-imitation-learning/5.12-vla-replica-reproducible-real-world-benchmark-2026.md) |
 | **第六章** | [强化学习方法](./course/06-reinforcement-learning/README.md) | Q-Learning、Policy Gradient、Actor Critic、Offline RL |
-| **第七章** | [具身智能：VLA与VLM模型](./course/07-vla-vlm-models/README.md) | Transformer、Diffusion Policy、RT1/RT2/Octo、[2026 WAMs模型更新](./course/07-vla-vlm-models/7.9-world-action-models-2026-updates.md)、[PSG-JEPA、物理仿真器与世界模型综述](./course/07-vla-vlm-models/2026-08-verified-embodied-ai-updates/README.md)、[VA/VLA/WM/WAM 术语与闭环分类](./course/07-vla-vlm-models/2026-08-verified-embodied-ai-updates/7.28-va-vla-wm-wam-taxonomy-2026.md) |
+| **第七章** | [具身智能：VLA与VLM模型](./course/07-vla-vlm-models/README.md) | Transformer、Diffusion Policy、RT1/RT2/Octo、[2026 WAMs模型更新](./course/07-vla-vlm-models/7.9-world-action-models-2026-updates.md)、[PSG-JEPA、物理仿真器与世界模型综述](./course/07-vla-vlm-models/2026-08-verified-embodied-ai-updates/README.md)、[VA/VLA/WM/WAM 术语与闭环分类](./course/07-vla-vlm-models/2026-08-verified-embodied-ai-updates/7.28-va-vla-wm-wam-taxonomy-2026.md)、[Pointing-VLA 与 GlanceWAM](./course/07-vla-vlm-models/2026-08-verified-embodied-ai-updates/README.md) |
 | **第八章** | [工程经验和总结展望](./course/08-engineering-experience/README.md) | 后处理优化、轨迹平滑、未来展望、[VLA-Perf 与 DriveVLA-M0 推理性能/部署专题](./course/08-engineering-experience/2026-08-vla-inference-performance/README.md) |
 
 - **维护者**: Damon Li
-- **更新日期**: 2026年8月27日（新增“全模态具身数据”与 VA/VLA/WM/WAM 术语分类的分层归档；两篇公众号线索均保留可追溯来源台账）
+- **更新日期**: 2026年8月27日（完成权威来源增量扫描：新增 AIRSEAI 1.0、VLA-REPLICA、Pointing-VLA、GlanceWAM；单一来源的 TrAct/DECOWAM 仅保留为观察候选）
 
 ---
 
@@ -229,6 +234,14 @@ embodied-intelligence-nexus/
 将“全模态具身数据”归入第 5 章的数据基础设施文档，将 VA/VLA/WM/WAM 的术语消歧与闭环分类归入第 7 章专题；两篇输入均仅作为 C 级线索，技术事实已回溯至数据卡、论文、项目页和官方代码。
 
 **关键词**: 多模态数据、动作语义、VLA、世界模型、世界—动作模型、Video-Action、资料溯源
+
+---
+
+### 1️⃣6️⃣ [2026年8月权威来源增量扫描：候选台账与跨章节导航](./researches/2026-08-authoritative-embodied-incremental-scan/README.md)
+
+对近期 arXiv、官方项目/代码/模型/数据页和 Linux Foundation 发布进行增量扫描；AIRSEAI、VLA-REPLICA、Pointing-VLA 与 GlanceWAM 已分别归档，TrAct 与 DECOWAM 因独立一手资源不足而只保留为观察候选。
+
+**关键词**: 增量扫描、VLA 评测、空间 grounding、异步世界模型、开源软件栈、证据分级
 
 ---
 

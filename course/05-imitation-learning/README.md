@@ -22,3 +22,5 @@
   - 以 latent action、预测世界模型、显式 2D 与显式 3D 四类 bridge 组织人类视频到机器人动作迁移；区分第一视角线索与机器人可执行动作监督。
 - [5.11 全模态具身数据：从观测—动作对到同步数据基础设施](./5.11-multimodal-embodied-data-infrastructure-2026.md)
   - 以 AGIBOT WORLD 2026、RoboMIND 2.0 与 Open-AoE 审计同步模态、动作语义、质量控制、数据许可与跨本体复用边界。
+- [5.12 VLA-REPLICA：低成本可复现真机 VLA 评测基准](./5.12-vla-replica-reproducible-real-world-benchmark-2026.md)
+  - 以 SO-101 动作归一化、AprilTag/图像叠加标定、10 项任务与 ID/OOD 场景审计真实评测的可复现条件；它是小规模 target-domain 适配/评测资源，不是大规模预训练数据。
