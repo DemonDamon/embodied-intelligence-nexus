@@ -68,6 +68,10 @@
     - 记录近一周 arXiv、官方项目/代码/模型/数据页与官方机构发布的候选筛选、证据等级及排除理由
     - 已将 AIRSEAI、VLA-REPLICA、Pointing-VLA、GlanceWAM 分别归入第 1、5、7 章；仅单一一手来源的 TrAct 和 DECOWAM 保留为观察候选
 
+17. [PI 产业观点与 RoboHarness：两篇公众号线索的一手来源台账](./2026-08-wechat-pi-roboharness-source-followup/README.md)
+    - PI 主题未能确认公众号标题所称 CEO 原话，故仅保存官方 π0.7 技术披露与观点归因边界
+    - RoboHarness 已回溯至 arXiv v2；因尚未发现同题官方项目、代码、模型或数据 artifact，保留为单一论文级观察候选而非课程技术文档
+
 ## 🖼️ 技术图表
 
 本研究配套的技术架构图和示意图保存在 `images/` 目录：

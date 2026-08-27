@@ -77,6 +77,7 @@ embodied-intelligence-nexus/
     ├── 2026-08-wechat-embodied-source-followup-0825/ # 三篇公众号线索台账与跨章节导航
     ├── 2026-08-wechat-embodied-source-followup-0827/ # 两篇公众号线索台账与跨章节导航
     ├── 2026-08-authoritative-embodied-incremental-scan/ # 权威来源增量扫描台账
+    ├── 2026-08-wechat-pi-roboharness-source-followup/ # PI 产业观点与 RoboHarness 来源台账
     ├── 2026-08-rss-closed-loop-multi-robot-manipulation.md # RSS 2026 多机器人闭环系统
     ├── images/                        # 技术图表与架构图
     └── diagrams/                      # 图表源文件（Mermaid）
@@ -242,6 +243,14 @@ embodied-intelligence-nexus/
 对近期 arXiv、官方项目/代码/模型/数据页和 Linux Foundation 发布进行增量扫描；AIRSEAI、VLA-REPLICA、Pointing-VLA 与 GlanceWAM 已分别归档，TrAct 与 DECOWAM 因独立一手资源不足而只保留为观察候选。
 
 **关键词**: 增量扫描、VLA 评测、空间 grounding、异步世界模型、开源软件栈、证据分级
+
+---
+
+### 1️⃣7️⃣ [PI 产业观点与 RoboHarness：两篇公众号线索的一手来源台账](./researches/2026-08-wechat-pi-roboharness-source-followup/README.md)
+
+对 PI “ChatGPT 时刻”观点和华为诺亚 RoboHarness 进行一手来源回溯。PI 条目仅保留官方 π0.7 披露，未确认标题所称 CEO 原话；RoboHarness 已核验 arXiv v2 的异构策略编排与 Memory Bridge，但尚缺同题官方 artifact，故未升格为课程技术文档。
+
+**关键词**: Physical Intelligence、π0.7、RoboHarness、异构策略、Memory Bridge、长时程规划、资料溯源
 
 ---
 

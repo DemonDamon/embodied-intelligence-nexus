@@ -54,6 +54,7 @@
 | Tesla AI & Robotics | https://www.tesla.com/AI | 公开 AI / Robotics 工程信息。 |
 | Generalist AI | https://generalistai.com/blog | 官方研究博客；须标注为公司披露。 |
 | Dyna Robotics | https://www.dyna.co/research | 官方研究博客；须标注为公司披露。 |
+| Physical Intelligence (π) | https://www.pi.website/ | π 系列 VLA、在线 RL、记忆与人类到机器人迁移的官方技术披露；需与同行评审/开源 artifact 分开标注。 |
 | Robbyant | https://technology.robbyant.com/ | LingBot 系列技术、代码、模型入口。 |
 | AIRSEAI / LF AI & Data | https://lfaidata.foundation/projects/airseai/ | 开源具身软件栈的项目治理与生态更新；需回溯官方代码、LICENSE 和版本状态。 |
 | YOUIBOT | https://zh.youibot.com/ | 工业具身平台与官方公告。 |
