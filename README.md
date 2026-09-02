@@ -81,6 +81,9 @@ embodied-intelligence-nexus/
     ├── 2026-08-authoritative-embodied-incremental-scan/ # 权威来源增量扫描台账
     ├── 2026-08-wechat-pi-roboharness-source-followup/ # PI 产业观点与 RoboHarness 来源台账
     ├── 2026-09-default-embodied-incremental-scan/ # 默认固定公众号与权威来源增量扫描台账
+    ├── 2026-09-contact-data-embodied-architecture-blog/ # 接触预测与数据契约技术博客及图示
+    │   ├── README.md
+    │   └── images/                                # 原创封面、技术图与 Mermaid 图源
     ├── 2026-08-rss-closed-loop-multi-robot-manipulation.md # RSS 2026 多机器人闭环系统
     ├── images/                        # 技术图表与架构图
     └── diagrams/                      # 图表源文件（Mermaid）
@@ -262,6 +265,14 @@ embodied-intelligence-nexus/
 首次按深蓝具身智能两个 P1 固定合集执行默认更新：合集可见条目均早于窗口，未被用作技术事实。Facet-0 与 LeRobot Community Dataset V3 通过论文、项目/框架、模型或数据卡的 A 级来源核验后分别归入第 7、5 章；TrAct v2、UniArmL1 与窗口外 Zero-WAM 保留为观察项。
 
 **关键词**: 默认更新、固定公众号、精密装配、force-aware VLA、社区机器人数据、LeRobot、证据分级
+
+---
+
+### 1️⃣9️⃣ [技术博客：从接触预测到数据契约](./researches/2026-09-contact-data-embodied-architecture-blog/README.md)
+
+以 Facet-0 与 LeRobot Community Dataset V3 为依据，采用架构评审视角讨论运行时接触闭环与数据生命周期闭环，并给出面向工程团队的 90 天落地路线。文章附有原创概念封面、两张结构化技术图以及完整的一手来源引用。
+
+**关键词**: 接触预测、force-aware VLA、数据契约、跨本体训练、LeRobot、机器人系统架构
 
 ---
 

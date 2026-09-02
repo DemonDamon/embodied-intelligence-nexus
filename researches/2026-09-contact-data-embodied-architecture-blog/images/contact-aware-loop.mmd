@@ -1,0 +1,20 @@
+flowchart LR
+    A[多视角图像、语言、运动学、wrench 历史] --> B[语义—接触表征 hᶜ]
+    B --> C[联合动作—wrench 提案生成]
+    C --> D[动作块 A]
+    C --> E[未来 wrench 预测 W-hat]
+    D --> F[安全裁剪与低层顺应控制]
+    F --> G[真实接触 rollout]
+    E --> H[Action–Wrench Critic]
+    G --> H
+    H --> I[接触选择性后训练]
+    I --> C
+
+    classDef observation fill:#0B3A53,color:#ffffff,stroke:#66C2D7,stroke-width:1.5px
+    classDef model fill:#123F5A,color:#ffffff,stroke:#7CC8E7,stroke-width:1.5px
+    classDef execution fill:#513D1F,color:#ffffff,stroke:#D9A44A,stroke-width:1.5px
+    classDef feedback fill:#1F4A3A,color:#ffffff,stroke:#79C99E,stroke-width:1.5px
+    class A observation
+    class B,C,E,H,I model
+    class D,F,G execution
+    class G feedback

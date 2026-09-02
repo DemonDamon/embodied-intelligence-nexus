@@ -76,6 +76,10 @@
     - 首次执行深蓝具身智能两个 P1 固定合集的默认扫描；可见条目均早于窗口，未将公众号内容作为技术事实
     - 将 Facet-0 与 LeRobot Community Dataset V3 分别归入第 7、5 章；TrAct v2、UniArmL1 与窗口外 Zero-WAM 保留为有明确理由的观察项
 
+19. [技术博客：从接触预测到数据契约](./2026-09-contact-data-embodied-architecture-blog/README.md)
+    - 以 Facet-0 和 LeRobot Community Dataset V3 为线索，讨论运行时接触闭环与数据生命周期闭环如何共同决定具身系统的工程上限
+    - 附带原创概念封面、两张可编辑 Mermaid 架构图，以及对预印本结果、数据异构性与复现缺口的中性审计
+
 ## 🖼️ 技术图表
 
 本研究配套的技术架构图和示意图保存在 `images/` 目录：

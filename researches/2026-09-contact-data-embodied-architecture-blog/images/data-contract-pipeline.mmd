@@ -1,0 +1,20 @@
+flowchart LR
+    A[社区贡献的原始 episodes] --> B[原始数据：视频、状态、动作、时间戳]
+    A --> C[元数据：本体、相机、坐标系、频率、许可]
+    B --> D[数据契约校验]
+    C --> D
+    D --> E{字段、时间与动作语义是否可验证？}
+    E -->|是| F[版本化 LeRobot 数据子集]
+    E -->|否| G[隔离、补齐元数据或仅作观察]
+    F --> H[有掩码的训练 batch]
+    H --> I[按本体与任务分层评测]
+    I --> J[目标机器人安全动作映射]
+
+    classDef source fill:#203A57,color:#ffffff,stroke:#7AC0E8,stroke-width:1.5px
+    classDef check fill:#4B3A20,color:#ffffff,stroke:#D9A44A,stroke-width:1.5px
+    classDef safe fill:#1E4D3A,color:#ffffff,stroke:#7AC99C,stroke-width:1.5px
+    classDef stop fill:#5B3030,color:#ffffff,stroke:#E58A8A,stroke-width:1.5px
+    class A,B,C source
+    class D,E check
+    class F,H,I,J safe
+    class G stop
