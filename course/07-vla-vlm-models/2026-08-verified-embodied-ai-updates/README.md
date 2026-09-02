@@ -1,7 +1,7 @@
 # 2026年8月具身模型、世界模型与真实评测更新
 
 > 作者：Damon Li
-> 更新日期：2026年8月27日
+> 更新日期：2026年9月2日
 > 核验口径：优先使用论文原文、官方项目页、官方 GitHub、Hugging Face / ModelScope 与公司官网；微信公众号文章仅作为线索与出处追溯，不将未经一手来源证实的主张视为事实。
 
 本专题归档 2026 年 7—8 月新增的具身基础模型、世界动作模型（World-Action Model, WAM）、人形机器人真实评测、开源 VLA 研究与仿真平台资料。内容将**论文证据**、**官方产品披露**与**未公开信息**分开处理，便于后续复核、复现与持续更新。
@@ -31,6 +31,7 @@
 | [7.28 VA/VLA/WM/WAM：术语与闭环分类](./7.28-va-vla-wm-wam-taxonomy-2026.md) | 条件策略、预测动态、Cascaded/Joint WAM、Video-Action 消歧 | VLA 论文、WAM 预印本、LingBot-VA/2.0 论文与 Apache-2.0 代码；VA 非统一标准术语 |
 | [7.29 Pointing-VLA：类型化空间读出](./7.29-pointing-vla-typed-spatial-grounding-2026.md) | 点、功能接触热图与视觉轨迹；OFG-PICK / Pointing-PLACE 执行合约 | 预印本；Embodied-R1.5 的代码/模型可用；Pointing-VLA 自身独立权重与训练 artifact 未发现 |
 | [7.30 GlanceWAM：异步测试时想象](./7.30-glancewam-asynchronous-test-time-imagination-2026.md) | 异步 lookahead latent、3-class Prefix-LM、staleness-robust flow matching | 预印本、MIT 代码、21 GB 数据/权重 bundle 与模拟评测脚本；真机结果未见 |
+| [7.31 Facet-0：动作—力矩预测的精密装配 VLA](./7.31-facet0-contact-rich-precision-manipulation-2026.md) | joint action–wrench flow matching、Action–Wrench Critic、contact-selective RL、受界局部适配 | 预印本、NTU/PINE 项目页、Apache-2.0 模型与 CC-BY-4.0 数据；训练代码未发现 |
 
 ## 证据等级
 
@@ -49,6 +50,8 @@
 本次新增 VA/VLA/WM/WAM 术语分类文档；其输入线索和来源链位于 [`researches/2026-08-wechat-embodied-source-followup-0827/`](../../../researches/2026-08-wechat-embodied-source-followup-0827/README.md)。同批“全模态具身数据”主题归入第 5 章。
 
 本轮对近期权威论文与官方项目的增量扫描补充了 Pointing-VLA 与 GlanceWAM；候选筛选、来源等级、排除的单一来源条目及跨章节索引位于 [`researches/2026-08-authoritative-embodied-incremental-scan/`](../../../researches/2026-08-authoritative-embodied-incremental-scan/README.md)。
+
+本轮默认更新已按 P1 固定合集和注册表权威入口完成增量扫描，补充 Facet-0；其来源、深蓝具身智能合集扫描记录、TrAct/UniArmL1 等观察候选与跨章节导航位于 [`researches/2026-09-default-embodied-incremental-scan/`](../../../researches/2026-09-default-embodied-incremental-scan/README.md)。
 
 ## 更新建议
 

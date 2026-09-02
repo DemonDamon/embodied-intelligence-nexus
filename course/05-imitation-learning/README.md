@@ -1,6 +1,6 @@
 # 第五章：模仿学习
 
-> 作者：Damon Li | 更新日期：2026年8月27日
+> 作者：Damon Li | 更新日期：2026年9月2日
 
 本章将深入探讨模仿学习（Imitation Learning）在机器人抓取与操作中的应用。我们将从模仿学习的介绍、行为克隆、交互式模仿学习、逆强化学习以及其他相关方法等方面进行详细阐述，展示机器人如何通过观察和模仿人类或专家行为来学习复杂技能。
 
@@ -24,3 +24,5 @@
   - 以 AGIBOT WORLD 2026、RoboMIND 2.0 与 Open-AoE 审计同步模态、动作语义、质量控制、数据许可与跨本体复用边界。
 - [5.12 VLA-REPLICA：低成本可复现真机 VLA 评测基准](./5.12-vla-replica-reproducible-real-world-benchmark-2026.md)
   - 以 SO-101 动作归一化、AprilTag/图像叠加标定、10 项任务与 ID/OOD 场景审计真实评测的可复现条件；它是小规模 target-domain 适配/评测资源，不是大规模预训练数据。
+- [5.13 LeRobot Community Dataset V3：社区异构数据的汇聚与数据契约](./5.13-lerobot-community-dataset-v3-2026.md)
+  - 审计 791 个公开社区数据集的跨本体 schema、时间同步、动作语义、许可证与 viewer 访问摩擦；它是数据基础设施，不是已证明跨本体泛化的统一基准。

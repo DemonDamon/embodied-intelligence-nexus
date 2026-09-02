@@ -1,6 +1,6 @@
 # Embodied Intelligence Nexus
 
-> 作者：Damon Li | 更新日期：2026年8月27日
+> 作者：Damon Li | 更新日期：2026年9月2日
 
 **具身智能前沿技术与应用研究 | A Comprehensive Research Repository on Embodied AI**
 
@@ -36,7 +36,8 @@ embodied-intelligence-nexus/
 │   │   ├── 5.9-latent-humanoid-tennis-imitation-2026.md  # LATENT 人形网球模仿学习
 │   │   ├── 5.10-human-videos-to-vla-survey-2026.md  # 人类视频到 VLA 表征桥接综述
 │   │   ├── 5.11-multimodal-embodied-data-infrastructure-2026.md # 全模态具身数据基础设施
-│   │   └── 5.12-vla-replica-reproducible-real-world-benchmark-2026.md # VLA-REPLICA 真机评测
+│   │   ├── 5.12-vla-replica-reproducible-real-world-benchmark-2026.md # VLA-REPLICA 真机评测
+│   │   └── 5.13-lerobot-community-dataset-v3-2026.md # LeRobot Community Dataset V3
 │   ├── 06-reinforcement-learning/     # 第六章：强化学习方法
 │   ├── 07-vla-vlm-models/             # 第七章：具身智能：VLA与VLM模型
 │   │   └── 2026-08-verified-embodied-ai-updates/  # 已核验模型、世界模型与真实评测专题
@@ -56,7 +57,8 @@ embodied-intelligence-nexus/
 │   │       ├── 7.27-simulators-and-world-models-survey-2025.md # 仿真器与世界模型综述
 │   │       ├── 7.28-va-vla-wm-wam-taxonomy-2026.md # VA/VLA/WM/WAM 术语与闭环分类
 │   │       ├── 7.29-pointing-vla-typed-spatial-grounding-2026.md # Pointing-VLA 类型化空间读出
-│   │       └── 7.30-glancewam-asynchronous-test-time-imagination-2026.md # GlanceWAM 异步测试时想象
+│   │       ├── 7.30-glancewam-asynchronous-test-time-imagination-2026.md # GlanceWAM 异步测试时想象
+│   │       └── 7.31-facet0-contact-rich-precision-manipulation-2026.md # Facet-0 精密装配 VLA
 │   └── 08-engineering-experience/     # 第八章：工程经验和总结展望
 │       └── 2026-08-vla-inference-performance/  # VLA-Perf 与 DriveVLA-M0 性能/部署专题
 └── researches/                        # 研究报告目录
@@ -78,6 +80,7 @@ embodied-intelligence-nexus/
     ├── 2026-08-wechat-embodied-source-followup-0827/ # 两篇公众号线索台账与跨章节导航
     ├── 2026-08-authoritative-embodied-incremental-scan/ # 权威来源增量扫描台账
     ├── 2026-08-wechat-pi-roboharness-source-followup/ # PI 产业观点与 RoboHarness 来源台账
+    ├── 2026-09-default-embodied-incremental-scan/ # 默认固定公众号与权威来源增量扫描台账
     ├── 2026-08-rss-closed-loop-multi-robot-manipulation.md # RSS 2026 多机器人闭环系统
     ├── images/                        # 技术图表与架构图
     └── diagrams/                      # 图表源文件（Mermaid）
@@ -100,13 +103,13 @@ embodied-intelligence-nexus/
 | **第二章** | [经典规划控制方法](./course/02-classical-control/README.md) | 轨迹算法、控制算法、智能抓取接触方法 |
 | **第三章** | [机器人视觉方法](./course/03-robot-vision/README.md) | 传感器标定、特征系统、2D/3D图像处理、6D位姿估计 |
 | **第四章** | [基于深度学习的抓取](./course/04-deep-learning-grasping/README.md) | 2D/6DoF抓取、Dex Grasping、[2026 Sim-to-Real与操作新进展](./course/04-deep-learning-grasping/4.6-sim-to-real-and-manipulation-2026.md)、[Patch Policy 密集视觉控制](./course/04-deep-learning-grasping/2026-08-dense-visual-policy/README.md) |
-| **第五章** | [模仿学习](./course/05-imitation-learning/README.md) | Behavior Cloning、Interactive IL、Inverse RL、[MotionDecode 具身动作数据集](./course/05-imitation-learning/2026-08-motiondecode-dataset/README.md)、[LATENT 人形网球模仿学习](./course/05-imitation-learning/5.9-latent-humanoid-tennis-imitation-2026.md)、[人类视频到 VLA 表征桥接综述](./course/05-imitation-learning/5.10-human-videos-to-vla-survey-2026.md)、[全模态具身数据基础设施](./course/05-imitation-learning/5.11-multimodal-embodied-data-infrastructure-2026.md)、[VLA-REPLICA 真机评测](./course/05-imitation-learning/5.12-vla-replica-reproducible-real-world-benchmark-2026.md) |
+| **第五章** | [模仿学习](./course/05-imitation-learning/README.md) | Behavior Cloning、Interactive IL、Inverse RL、[MotionDecode 具身动作数据集](./course/05-imitation-learning/2026-08-motiondecode-dataset/README.md)、[LATENT 人形网球模仿学习](./course/05-imitation-learning/5.9-latent-humanoid-tennis-imitation-2026.md)、[人类视频到 VLA 表征桥接综述](./course/05-imitation-learning/5.10-human-videos-to-vla-survey-2026.md)、[全模态具身数据基础设施](./course/05-imitation-learning/5.11-multimodal-embodied-data-infrastructure-2026.md)、[VLA-REPLICA 真机评测](./course/05-imitation-learning/5.12-vla-replica-reproducible-real-world-benchmark-2026.md)、[LeRobot Community Dataset V3](./course/05-imitation-learning/5.13-lerobot-community-dataset-v3-2026.md) |
 | **第六章** | [强化学习方法](./course/06-reinforcement-learning/README.md) | Q-Learning、Policy Gradient、Actor Critic、Offline RL |
-| **第七章** | [具身智能：VLA与VLM模型](./course/07-vla-vlm-models/README.md) | Transformer、Diffusion Policy、RT1/RT2/Octo、[2026 WAMs模型更新](./course/07-vla-vlm-models/7.9-world-action-models-2026-updates.md)、[PSG-JEPA、物理仿真器与世界模型综述](./course/07-vla-vlm-models/2026-08-verified-embodied-ai-updates/README.md)、[VA/VLA/WM/WAM 术语与闭环分类](./course/07-vla-vlm-models/2026-08-verified-embodied-ai-updates/7.28-va-vla-wm-wam-taxonomy-2026.md)、[Pointing-VLA 与 GlanceWAM](./course/07-vla-vlm-models/2026-08-verified-embodied-ai-updates/README.md) |
+| **第七章** | [具身智能：VLA与VLM模型](./course/07-vla-vlm-models/README.md) | Transformer、Diffusion Policy、RT1/RT2/Octo、[2026 WAMs模型更新](./course/07-vla-vlm-models/7.9-world-action-models-2026-updates.md)、[PSG-JEPA、物理仿真器与世界模型综述](./course/07-vla-vlm-models/2026-08-verified-embodied-ai-updates/README.md)、[VA/VLA/WM/WAM 术语与闭环分类](./course/07-vla-vlm-models/2026-08-verified-embodied-ai-updates/7.28-va-vla-wm-wam-taxonomy-2026.md)、[Pointing-VLA、GlanceWAM 与 Facet-0](./course/07-vla-vlm-models/2026-08-verified-embodied-ai-updates/README.md) |
 | **第八章** | [工程经验和总结展望](./course/08-engineering-experience/README.md) | 后处理优化、轨迹平滑、未来展望、[VLA-Perf 与 DriveVLA-M0 推理性能/部署专题](./course/08-engineering-experience/2026-08-vla-inference-performance/README.md) |
 
 - **维护者**: Damon Li
-- **更新日期**: 2026年8月27日（完成权威来源增量扫描：新增 AIRSEAI 1.0、VLA-REPLICA、Pointing-VLA、GlanceWAM；单一来源的 TrAct/DECOWAM 仅保留为观察候选）
+- **更新日期**: 2026年9月2日（完成固定公众号与权威来源的默认增量扫描：新增 Facet-0、LeRobot Community Dataset V3；TrAct v2、UniArmL1 和窗口外 Zero-WAM 保留为有证据边界的观察项）
 
 ---
 
@@ -251,6 +254,14 @@ embodied-intelligence-nexus/
 对 PI “ChatGPT 时刻”观点和华为诺亚 RoboHarness 进行一手来源回溯。PI 条目仅保留官方 π0.7 披露，未确认标题所称 CEO 原话；RoboHarness 已核验 arXiv v2 的异构策略编排与 Memory Bridge，但尚缺同题官方 artifact，故未升格为课程技术文档。
 
 **关键词**: Physical Intelligence、π0.7、RoboHarness、异构策略、Memory Bridge、长时程规划、资料溯源
+
+---
+
+### 1️⃣8️⃣ [2026年9月默认具身智能增量扫描：固定公众号与权威来源台账](./researches/2026-09-default-embodied-incremental-scan/README.md)
+
+首次按深蓝具身智能两个 P1 固定合集执行默认更新：合集可见条目均早于窗口，未被用作技术事实。Facet-0 与 LeRobot Community Dataset V3 通过论文、项目/框架、模型或数据卡的 A 级来源核验后分别归入第 7、5 章；TrAct v2、UniArmL1 与窗口外 Zero-WAM 保留为观察项。
+
+**关键词**: 默认更新、固定公众号、精密装配、force-aware VLA、社区机器人数据、LeRobot、证据分级
 
 ---
 
