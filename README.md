@@ -1,6 +1,6 @@
 # Embodied Intelligence Nexus
 
-> 作者：Damon Li | 更新日期：2026年9月2日
+> 作者：Damon Li | 更新日期：2026年9月3日
 
 **具身智能前沿技术与应用研究 | A Comprehensive Research Repository on Embodied AI**
 
@@ -84,6 +84,9 @@ embodied-intelligence-nexus/
     ├── 2026-09-contact-data-embodied-architecture-blog/ # 接触预测与数据契约技术博客及图示
     │   ├── README.md
     │   └── images/                                # 原创封面、技术图与 Mermaid 图源
+    ├── 2026-09-wechat-low-equipment-curriculum/  # 3,000 元内低设备实践版公众号课程大纲
+    │   ├── README.md
+    │   └── images/                                # 课程后续图文素材预留目录
     ├── 2026-08-rss-closed-loop-multi-robot-manipulation.md # RSS 2026 多机器人闭环系统
     ├── images/                        # 技术图表与架构图
     └── diagrams/                      # 图表源文件（Mermaid）
@@ -112,7 +115,7 @@ embodied-intelligence-nexus/
 | **第八章** | [工程经验和总结展望](./course/08-engineering-experience/README.md) | 后处理优化、轨迹平滑、未来展望、[VLA-Perf 与 DriveVLA-M0 推理性能/部署专题](./course/08-engineering-experience/2026-08-vla-inference-performance/README.md) |
 
 - **维护者**: Damon Li
-- **更新日期**: 2026年9月2日（完成固定公众号与权威来源的默认增量扫描：新增 Facet-0、LeRobot Community Dataset V3；TrAct v2、UniArmL1 和窗口外 Zero-WAM 保留为有证据边界的观察项）
+- **更新日期**: 2026年9月3日（新增 3,000 元内低设备实践版微信公众号课程大纲：40 讲、16 个软件/数据实验；高成本真机操作仅作为理论案例）
 
 ---
 
@@ -273,6 +276,14 @@ embodied-intelligence-nexus/
 以 Facet-0 与 LeRobot Community Dataset V3 为依据，采用架构评审视角讨论运行时接触闭环与数据生命周期闭环，并给出面向工程团队的 90 天落地路线。文章附有原创概念封面、两张结构化技术图以及完整的一手来源引用。
 
 **关键词**: 接触预测、force-aware VLA、数据契约、跨本体训练、LeRobot、机器人系统架构
+
+---
+
+### 2️⃣0️⃣ [具身智能微信公众号课程集合大纲：3,000 元内低设备实践版](./researches/2026-09-wechat-low-equipment-curriculum/README.md)
+
+将仓库的八章技术知识重构为 40 讲 / 20 周的微信公众号课程主线，另配 16 个基于 Python、公开数据、轻量仿真和系统设计审计的低成本实验。课程不要求购买机械臂；接触力控、灵巧手、双臂、人形与真机在线训练仅保留为具有工程边界的理论案例。
+
+**关键词**: 微信公众号课程、低设备实践、软件实验、具身数据、VLA、系统评测、课程设计
 
 ---
 
